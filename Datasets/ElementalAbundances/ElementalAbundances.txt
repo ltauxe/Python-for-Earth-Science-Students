@@ -1,0 +1,95 @@
+AtomicNumber	Symbol	Name	Solar	System
+01	H	hydrogen	28000.0	28000.0
+02	He	helium	2700.0	2700.0
+03	Li	lithium	4e-07	5.7e-05
+04	Be	beryllium	4e-07	7e-07
+05	B	boron	1.1000000000000001e-05	2.1000000000000002e-05
+06	C	carbon	10.0	10.0
+07	N	nitrogen	3.1	3.1
+08	O	oxygen	24.0	24.0
+09	F	fluorine	0.001	0.0008500000000000001
+10	Ne	neon	3.0	3.0
+11	Na	sodium	0.06	0.057
+12	Mg	magnesium	1.0	1.1
+13	Al	aluminium	0.083	0.085
+14	Si	silicon	1.0	1.0
+15	P	phosphorus	0.008	0.01
+16	S	sulfur	0.45	0.52
+17	Cl	chlorine	0.009000000000000001	0.005200000000000001
+18	Ar	argon	0.1	0.1
+19	K	potassium	0.0037	0.0038
+20	Ca	calcium	0.064	0.061
+21	Sc	scandium	3.5000000000000004e-05	3.4e-05
+22	Ti	titanium	0.0027	0.0024
+23	V	vanadium	0.00028	0.00029
+24	Cr	chromium	0.013000000000000001	0.013000000000000001
+25	Mn	manganese	0.006900000000000001	0.0095
+26	Fe	iron	0.9	0.9
+27	Co	cobalt	0.0023	0.0023
+28	Ni	nickel	0.05	0.05
+29	Cu	copper	0.00045000000000000004	0.0005200000000000001
+30	Zn	zinc	0.0011	0.0013000000000000002
+31	Ga	gallium	2.1000000000000002e-05	3.8e-05
+32	Ge	germanium	7.2e-05	0.00012
+33	As	arsenic		6.5999999999999995e-06
+34	Se	selenium		6.3e-05
+35	Br	bromine		1.2e-05
+36	Kr	krypton		4.8e-05
+37	Rb	rubidium	1.1000000000000001e-05	7e-06
+38	Sr	strontium	2.2000000000000003e-05	2.4e-05
+39	Y	yttrium	4.9000000000000005e-06	4.599999999999999e-06
+40	Zr	zirconium	1.1200000000000001e-05	1.14e-05
+41	Nb	niobium	7e-07	7e-07
+42	Mo	molybdenum	2.2999999999999996e-06	2.6e-06
+43	Tc	technetium		
+44	Ru	ruthenium	1.8999999999999998e-06	1.8999999999999998e-06
+45	Rh	rhodium	4e-07	3.4e-07
+46	Pd	palladium	1.4e-06	1.4e-06
+47	Ag	silver	2e-07	4.9e-07
+48	Cd	cadmium	2e-06	1.6e-06
+49	In	indium	1.3e-06	1.8999999999999998e-07
+50	Sn	tin	3e-06	3.9e-06
+51	Sb	antimony	3e-07	3.1e-07
+52	Te	tellurium		4.9000000000000005e-06
+53	I	iodine		9e-07
+54	Xe	xenon		4.8e-06
+55	Cs	caesium		3.7e-07
+56	Ba	barium	3.7999999999999996e-06	4.5e-06
+57	La	lanthanum	5e-07	4.4e-07
+58	Ce	cerium	1e-06	1.1e-06
+59	Pr	praseodymium	1.3999999999999998e-07	1.7e-07
+60	Nd	neodymium	9e-07	8.3e-07
+61	Pm	promethium		
+62	Sm	samarium	3e-07	2.6e-07
+63	Eu	europium	9e-08	9.7e-08
+64	Gd	gadolinium	3.7e-07	3.2999999999999996e-07
+65	Tb	terbium	2e-08	6.000000000000001e-08
+66	Dy	dysprosium	3.5e-07	4e-07
+67	Ho	holmium	5e-08	8.9e-08
+68	Er	erbium	2.4e-07	2.5e-07
+69	Tm	thulium	3.0000000000000004e-08	3.7999999999999996e-08
+70	Yb	ytterbium	3.4e-07	2.5e-07
+71	Lu	lutetium	1.5e-07	3.7e-08
+72	Hf	hafnium	2.1e-07	1.5e-07
+73	Ta	tantalum		3.7999999999999996e-08
+74	W	tungsten	3.6e-07	1.3e-07
+75	Re	rhenium		5e-08
+76	Os	osmium	8e-07	6.699999999999999e-07
+77	Ir	iridium	6e-07	6.599999999999999e-07
+78	Pt	platinum	1.8e-06	1.34e-06
+79	Au	gold	3e-07	1.8999999999999998e-07
+80	Hg	mercury		3.4e-07
+81	Tl	thallium	2e-07	1.8999999999999998e-07
+82	Pb	lead	2e-06	3.1e-06
+83	Bi	bismuth		1.3999999999999998e-07
+84	Po	polonium		
+85	At	astatine		
+86	Rn	radon		
+87	Fr	francium		
+88	Ra	radium		
+89	Ac	actinium		
+90	Th	thorium	5e-08	4.5e-08
+91	Pa	protactinium		
+92	U	uranium		1.8000000000000002e-08
+93	Np	neptunium		
+94	Pu	plutonium		

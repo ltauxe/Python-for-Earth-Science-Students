@@ -1,0 +1,152 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"><head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>IRIS IEB exported quakes table</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--></head><body><table>
+        <thead>
+        <tr class="even">
+        <th class="smaller header" title="Year">Year&nbsp;</th>
+        <th class="smaller header" title="Month">Month&nbsp;</th>
+        <th class="smaller header" title="Day">Day&nbsp;</th>
+        <th title="Time" class="header">Time UTC</th>
+        <th title="Magnitude" class="header">Mag&nbsp;</th>
+        <th title="Latitude" class="latlon header">Lat</th>
+        <th title="Longitude" class="latlon header">Lon</th>
+        <th title="Depth" class="header">Depth km</th>
+
+        <th title="Region" class="header">Region</th>
+        <th title="Explore ID" class="header">IRIS ID</th>
+        <th title="Timestamp" class="header">Timestamp</th>
+        </tr>
+        </thead>
+
+         <tbody id="theBody">
+
+<tr class="odd">
+<td class="day">2017</td>
+<td class="day">03</td>
+<td class="day">15</td>
+<td class="time">18:27:24</td>
+<td class="mag ">2.3</td>
+<td class="latlon">66.07</td>
+<td class="latlon">-149.03</td>
+<td class="mag "> 11.9</td>
+<td>NORTHERN ALASKA</td>
+<td class="evid">10040950</td>
+<td class="epoch">1489602444</td>
+</tr>
+<tr class="even">
+<td class="day">2017</td>
+<td class="day">03</td>
+<td class="day">15</td>
+<td class="time">18:22:55</td>
+<td class="mag ">0.8</td>
+<td class="latlon">38.83</td>
+<td class="latlon">-122.80</td>
+<td class="mag ">  2.5</td>
+<td>NORTHERN CALIFORNIA</td>
+<td class="evid">10040947</td>
+<td class="epoch">1489602175</td>
+</tr>
+<tr class="odd">
+<td class="day">2017</td>
+<td class="day">03</td>
+<td class="day">15</td>
+<td class="time">18:10:33</td>
+<td class="mag ">1.2</td>
+<td class="latlon">32.92</td>
+<td class="latlon">-115.47</td>
+<td class="mag ">  4.5</td>
+<td>CALIF.-BAJA CALIF. BORDER REGION</td>
+<td class="evid">10040945</td>
+<td class="epoch">1489601433</td>
+</tr>
+<tr class="even">
+<td class="day">2017</td>
+<td class="day">03</td>
+<td class="day">15</td>
+<td class="time">17:57:25</td>
+<td class="mag ">1.2</td>
+<td class="latlon">47.63</td>
+<td class="latlon">-122.51</td>
+<td class="mag ">  6.1</td>
+<td>WASHINGTON</td>
+<td class="evid">10040948</td>
+<td class="epoch">1489600645</td>
+</tr>
+<tr class="odd">
+<td class="day">2017</td>
+<td class="day">03</td>
+<td class="day">15</td>
+<td class="time">17:53:27</td>
+<td class="mag ">1.8</td>
+<td class="latlon">60.97</td>
+<td class="latlon">-151.24</td>
+<td class="mag "> 67.2</td>
+<td>KENAI PENINSULA, ALASKA</td>
+<td class="evid">10040943</td>
+<td class="epoch">1489600407</td>
+</tr>
+<tr class="even">
+<td class="day">2017</td>
+<td class="day">03</td>
+<td class="day">15</td>
+<td class="time">17:28:14</td>
+<td class="mag ">0.2</td>
+<td class="latlon">37.65</td>
+<td class="latlon">-118.85</td>
+<td class="mag ">  1.5</td>
+<td>CALIFORNIA-NEVADA BORDER REGION</td>
+<td class="evid">10040941</td>
+<td class="epoch">1489598894</td>
+</tr>
+<tr class="odd">
+<td class="day">2017</td>
+<td class="day">03</td>
+<td class="day">15</td>
+<td class="time">17:20:21</td>
+<td class="mag ">3.5</td>
+<td class="latlon">53.20</td>
+<td class="latlon">-161.30</td>
+<td class="mag "> 23.5</td>
+<td>SOUTH OF ALASKA</td>
+<td class="evid"><a href="http://ds.iris.edu/ds/nodes/dmc/tools/event/10040944">10040944</a></td>
+<td class="epoch">1489598421</td>
+</tr>
+<tr class="even">
+<td class="day">2017</td>
+<td class="day">03</td>
+<td class="day">15</td>
+<td class="time">17:13:56</td>
+<td class="mag ">2.1</td>
+<td class="latlon">19.41</td>
+<td class="latlon">-155.28</td>
+<td class="mag ">  0.0</td>
+<td>HAWAII</td>
+<td class="evid">10040935</td>
+<td class="epoch">1489598036</td>
+</tr>
+<tr class="odd">
+<td class="day">2017</td>
+<td class="day">03</td>
+<td class="day">15</td>
+<td class="time">16:56:52</td>
+<td class="mag ">0.8</td>
+<td class="latlon">38.84</td>
+<td class="latlon">-122.83</td>
+<td class="mag ">  1.9</td>
+<td>NORTHERN CALIFORNIA</td>
+<td class="evid">10040930</td>
+<td class="epoch">1489597012</td>
+</tr>
+<tr class="even">
+<td class="day">2017</td>
+<td class="day">03</td>
+<td class="day">15</td>
+<td class="time">16:51:09</td>
+<td class="mag ">3.6</td>
+<td class="latlon">36.88</td>
+<td class="latlon">-89.12</td>
+<td class="mag ">  9.0</td>
+<td>NEW MADRID, MISSOURI REGION</td>
+<td class="evid"><a href="http://ds.iris.edu/ds/nodes/dmc/tools/event/10040931">10040931</a></td>
+<td class="epoch">1489596669</td>
+</tr>
+</tbody>
+</table></body></html>

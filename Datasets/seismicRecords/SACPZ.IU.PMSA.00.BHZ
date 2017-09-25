@@ -1,0 +1,40 @@
+* **********************************
+* NETWORK   (KNETWK): IU
+* STATION    (KSTNM): PMSA
+* LOCATION   (KHOLE): 00
+* CHANNEL   (KCMPNM): BHZ
+* CREATED           : 2017-05-17T20:04:38
+* START             : 2012-02-19T00:00:00
+* END               : 2599-12-31T23:59:59
+* DESCRIPTION       : Palmer Station, Antarctica
+* LATITUDE          : -64.774400
+* LONGITUDE         : -64.048900
+* ELEVATION         : 40.0
+* DEPTH             : 0.0
+* DIP               : 0.0
+* AZIMUTH           : 0.0
+* SAMPLE RATE       : 20.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Streckeisen STS-1VBB w/E300
+* INSTGAIN          : 2.484000e+03 (M/S)
+* COMMENT           : 
+* SENSITIVITY       : 4.167460e+09 (M/S)
+* A0                : 3.949190e+03
+* **********************************
+ZEROS	5
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	-2.390240e-02	+0.000000e+00	
+	-2.390240e-02	+0.000000e+00	
+POLES	6
+	-1.310280e-02	+1.234000e-02	
+	-1.310280e-02	-1.234000e-02	
+	-1.659620e-02	+0.000000e+00	
+	-2.994760e-02	+0.000000e+00	
+	-3.918000e+01	+4.912000e+01	
+	-3.918000e+01	-4.912000e+01	
+CONSTANT	1.645809e+13
+
+
