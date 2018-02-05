@@ -1,0 +1,16 @@
+{"__comment__": "JSON file specifying the image to use for a given type/name and
+ resolution. Read in by cartopy.mpl.geoaxes.read_user_background_images.",
+  "BM": {
+    "__comment__": "Blue Marble Next Generation, July ",
+    "__source__": "https://neo.sci.gsfc.nasa.gov/view.php?datasetId=BlueMarbleNG
+-TB",
+    "__projection__": "PlateCarree",
+    "low": "BM.jpeg",
+    "high": "BMNG_hirez.png"},
+
+    "pop": {
+    "__comment__": "Population density from Nasa earth observations website",
+    "__source__": "https://neo.sci.gsfc.nasa.gov/view.php?datasetId=SEDAC_POP",
+    "__projection__": "PlateCarree",
+    "high": "population.jpg"}
+}
