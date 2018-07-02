@@ -1,0 +1,28 @@
+Lecture,Topic,Application
+1,Intro to the class,
+2,Variables and Operations,
+3,Data structures,
+4,"Dictionaries, program loops (if, while and for)",
+5,functions and modules,
+6,NumPy and matplotlib,seismic record
+7,NumPy arrays,
+8,file systems and paths,
+9,"Pandas, file I/O",P-S wave arrival times
+10,object oriented programming,objects and classes
+11,recursions and exceptions,fibonacci spiral
+12,"lambda, map, filter reduce, list comprehension ",
+13,data wrangling with Pandas,seismic travel time plots
+14,"subplots, bar charts pie charts",elemental abundances
+15,histograms and cumulative distribution functions,hypsometric curve
+16,statistics 101,Univariate data
+17,"hypothesis testing t, F",
+18,application to grain sizes,grain sizes
+19,line and curve fitting,Bivariate data & Hubble plot
+20,maps,spatial data; earthquake locations/ depths
+21,gridding and contouring,IGRF
+22,rose diagrams and equal area projections,glacial striations
+23,matrix math - dot and cross products,poles to planes and more
+24,plotting great and small circles,
+25,3D plots of points and surfaces,benioff zone
+26,Time series  - periodograms,temporal data
+27,Animations,Indian plate motion
