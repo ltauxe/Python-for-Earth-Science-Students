@@ -1,0 +1,47 @@
+Event	Campaign	Latitude	Longitude	Elevation [m]	Ø [mm]	Perc [%]	Growth [%]	Index	Species	Location	Area
+PS1397-1	ANT-IV/3	-76.8767	-50.0250	-270.0	17	60.70	49.1	29.8	Cornuspiroides rotundus	Filchner Shelf	Antarctic
+PS1989-1	ANT-IX/3	-71.1475	-12.1950	-400.0	9	84.60	45.6	38.6	Cornuspiroides rotundus	Kapp Norvegia	Antarctic
+PS1989-1	ANT-IX/3	-71.1475	-12.1950	-400.0	14	86.20	49.6	42.7	Cornuspiroides rotundus	Kapp Norvegia	Antarctic
+PS1989-1	ANT-IX/3	-71.1475	-12.1950	-400.0	8	96.40	49.5	47.8	Cornuspiroides rotundus	Kapp Norvegia	Antarctic
+PS1989-2	ANT-IX/3	-71.1467	-12.2117	-403.0	4	100.00	45.1	45.1	Cornuspiroides rotundus	Kapp Norvegia	Antarctic
+PS1989-2	ANT-IX/3	-71.1467	-12.2117	-403.0	8	109.10	45.4	49.5	Cornuspiroides rotundus	Kapp Norvegia	Antarctic
+PS1989-2	ANT-IX/3	-71.1467	-12.2117	-403.0	9	100.00	50.4	50.4	Cornuspiroides rotundus	Kapp Norvegia	Antarctic
+PS1989-2	ANT-IX/3	-71.1467	-12.2117	-403.0	10	90.10	48.6	43.8	Cornuspiroides rotundus	Kapp Norvegia	Antarctic
+PS1989-2	ANT-IX/3	-71.1467	-12.2117	-403.0	11	115.00	40.0	46.0	Cornuspiroides rotundus	Kapp Norvegia	Antarctic
+PS1989-2	ANT-IX/3	-71.1467	-12.2117	-403.0	10	70.60	52.3	36.9	Cornuspiroides rotundus	Kapp Norvegia	Antarctic
+PS1989-2	ANT-IX/3	-71.1467	-12.2117	-403.0	11	100.00	45.5	45.5	Cornuspiroides rotundus	Kapp Norvegia	Antarctic
+PS1989-2	ANT-IX/3	-71.1467	-12.2117	-403.0	12	89.70	46.4	41.6	Cornuspiroides rotundus	Kapp Norvegia	Antarctic
+PS1989-2	ANT-IX/3	-71.1467	-12.2117	-403.0	18	93.80	53.3	50.0	Cornuspiroides rotundus	Kapp Norvegia	Antarctic
+PS1989-2	ANT-IX/3	-71.1467	-12.2117	-403.0	18	76.30	47.5	36.2	Cornuspiroides rotundus	Kapp Norvegia	Antarctic
+PS1992-1	ANT-IX/3	-76.4245	-30.4298	-319.0	9	89.70	45.7	41.0	Cornuspiroides rotundus	Filchner Trough	Antarctic
+PS1993-2	ANT-IX/3	-76.4248	-30.4307	-319.0	8	77.80	49.5	38.5	Cornuspiroides rotundus	Filchner Trough	Antarctic
+PS1993-2	ANT-IX/3	-76.4248	-30.4307	-319.0	10	81.50	46.6	37.9	Cornuspiroides rotundus	Filchner Trough	Antarctic
+PS1993-2	ANT-IX/3	-76.4248	-30.4307	-319.0	12	75.90	52.2	38.6	Cornuspiroides rotundus	Filchner Trough	Antarctic
+PS1993-2	ANT-IX/3	-76.4248	-30.4307	-319.0	16	71.60	43.8	31.4	Cornuspiroides rotundus	Filchner Trough	Antarctic
+PS1993-2	ANT-IX/3	-76.4248	-30.4307	-319.0	18	56.30	50.7	28.6	Cornuspiroides rotundus	Filchner Trough	Antarctic
+PS1993-2	ANT-IX/3	-76.4248	-30.4307	-319.0	9	89.30	46.6	41.6	Cornuspiroides rotundus	Filchner Trough	Antarctic
+PS1997-1	ANT-IX/3	-76.1296	-28.3773	-317.0	4	86.10	46.7	40.2	Cornuspiroides rotundus	Filchner Trough	Antarctic
+PS1997-1	ANT-IX/3	-76.1296	-28.3773	-317.0	10	88.50	48.2	42.6	Cornuspiroides rotundus	Filchner Trough	Antarctic
+PS1997-1	ANT-IX/3	-76.1296	-28.3773	-317.0	11	76.00	43.1	32.8	Cornuspiroides rotundus	Filchner Trough	Antarctic
+PS1997-1	ANT-IX/3	-76.1296	-28.3773	-317.0	14	101.60	45.1	45.8	Cornuspiroides rotundus	Filchner Trough	Antarctic
+PS1997-1	ANT-IX/3	-76.1296	-28.3773	-317.0	20	82.10	47.0	38.6	Cornuspiroides rotundus	Filchner Trough	Antarctic
+PS1997-2	ANT-IX/3	-76.1194	-28.2569	-376.0	17	81.60	50.0	40.8	Cornuspiroides rotundus	Weddell Sea	Antarctic
+PS1998-3	ANT-IX/3	-75.4683	-26.9100	-221.0	15	78.60	49.1	38.8	Cornuspiroides rotundus	Halley Bay	Antarctic
+PS2018-2	ANT-IX/3	-70.3150	-3.2633	-191.0	22	91.30	47.2	43.1	Cornuspiroides rotundus	Weddell Sea	Antarctic
+PS2021-1	ANT-IX/3	-69.7863	0.8704	-465.0	11	100.00	41.0	41.0	Cornuspiroides rotundus	Weddell Sea	Antarctic
+PS2021-1	ANT-IX/3	-69.7863	0.8704	-465.0	15	88.00	44.6	39.3	Cornuspiroides rotundus	Weddell Sea	Antarctic
+PS2021-1	ANT-IX/3	-69.7863	0.8704	-465.0	22	57.40	60.0	34.5	Cornuspiroides rotundus	Weddell Sea	Antarctic
+PS2026-1	ANT-IX/3	-70.0083	7.1517	-235.0	6	100.00	42.3	42.3	Cornuspiroides rotundus	Weddell Sea	Antarctic
+PS2026-1	ANT-IX/3	-70.0083	7.1517	-235.0	9	100.00	39.0	39.0	Cornuspiroides rotundus	Weddell Sea	Antarctic
+PS2026-1	ANT-IX/3	-70.0083	7.1517	-235.0	12	106.40	48.0	51.0	Cornuspiroides rotundus	Weddell Sea	Antarctic
+PS2057-3	ANT-IX/3	-69.9572	11.8002	-208.0	7	88.00	44.6	39.3	Cornuspiroides rotundus	Lazarev Sea	Antarctic
+PS2114-1	ARK-VIII/2	77.5475	19.0987	-178.0	27	39.20	59.4	26.4	Cornuspiroides striolatus	Svalbard	Arctic
+PS2122-5	ARK-VIII/2	80.3750	7.5430		16	45.00	55.9	25.2	Cornuspiroides striolatus	Yermak Plateau	Arctic
+PS2122-5	ARK-VIII/2	80.3750	7.5430		16	40.80	68.5	28.0	Cornuspiroides striolatus	Yermak Plateau	Arctic
+PS2122-5	ARK-VIII/2	80.3750	7.5430		14	56.40	56.9	32.1	Cornuspiroides striolatus	Yermak Plateau	Arctic
+PS2122-5	ARK-VIII/2	80.3750	7.5430		10	31.60	65.5	20.7	Cornuspiroides striolatus	Yermak Plateau	Arctic
+PS2122-5	ARK-VIII/2	80.3750	7.5430		19	38.30	61.0	23.4	Cornuspiroides striolatus	Yermak Plateau	Arctic
+PS2122-5	ARK-VIII/2	80.3750	7.5430		15	55.90	57.1	24.7	Cornuspiroides striolatus	Yermak Plateau	Arctic
+PS2122-5	ARK-VIII/2	80.3750	7.5430		13	54.10	58.7	31.8	Cornuspiroides striolatus	Yermak Plateau	Arctic
+PS2122-5	ARK-VIII/2	80.3750	7.5430		10	38.20	59.4	22.7	Cornuspiroides striolatus	Yermak Plateau	Arctic
+PS2122-5	ARK-VIII/2	80.3750	7.5430		17	32.40	55.6	18.0	Cornuspiroides striolatus	Yermak Plateau	Arctic
