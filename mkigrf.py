@@ -1,8 +1,29 @@
 import numpy as np
 def doigrf(long,lat,date):
     """
-    Returns the x,y,z,f components of the geomagnetic field at location long/lat for decimal year.
-    x,y,z are the cartesian components of the field and f is the total field strength (in nT).
+    Calculates the interpolated (<2015) or extrapolated (>2015) main field and
+    secular variation coefficients and passes them to the Malin and Barraclough
+    routine (function pmag.magsyn) to calculate the field from the coefficients.
+
+    Parameters:
+    -----------
+    lon  : east longitude in degrees (0 to 360 or -180 to 180)
+    lat   : latitude in degrees (-90 to 90)
+    date  : Required date in years and decimals of a year (A.D.)
+   
+    Return
+    -----------
+    x : north component of the magnetic field in nT
+    y : east component of the magnetic field in nT
+    z : downward component of the magnetic field in nT
+    f : total magnetic field in nT
+
+    By default, igrf12 coefficients are used between 1900 and 2020
+    from http://www.ngdc.noaa.gov/IAGA/vmod/igrf.html.
+
+
+    To check the results you can run the interactive program at the NGDC
+    www.ngdc.noaa.gov/geomag-web
     """
     models,igrf12coeffs=get_igrf12()
     model,alt = date-date%5,0
@@ -165,7 +186,20 @@ def magsyn(gh,sv,b,date,itype,alt,colat,elong):
 #
 def cart2dir(x,y,z):
     """
-    returns declination, inclination, total field for x,y,z
+    Converts a direction in cartesian coordinates into declination, inclinations
+
+    Parameters
+    ----------
+    cart : input list of [x,y,z] or list of lists [[x1,y1,z1],[x2,y2,z2]...]
+
+    Returns
+    -------
+    direction_array : returns an array of [declination, inclination, intensity]
+
+    Examples
+    --------
+    >>> pmag.cart2dir([0,1,0])
+    array([ 90.,   0.,   1.])
     """
     B=np.sqrt(x**2+y**2+z**2) # calculate resultant vector length
     Dec=np.degrees(np.arctan2(y,x))%360. # calculate declination taking care of correct quadrants (arctan2) and making modulo 360.
@@ -174,3 +208,52 @@ def cart2dir(x,y,z):
 
 
 #
+
+
+def magMap(date,**kwargs):
+    """
+    generates the data for a map of the magnetic field. 
+    Inputs: 
+    required: 
+        date = decimal year for evaluation (between 1900 and 2020)
+    optional: 
+        lon_0 = desired zero longitude
+    
+    Returns: 
+    
+    Bdec = declinations
+    Binc = inclinations
+    B = field strength (in microtesla)
+    lons = array of longitudes
+    lats = array of latitudes
+
+    """
+    if 'lon_0' in kwargs.keys(): # check if there are keyword arguments
+        lon_0=kwargs['lon_0'] # if lon_0 is set, use that one
+    else: # otherwise..... 
+        lon_0=0. # set the default lon_0 to 0. 
+    
+    incr=10 # we can vary to the resolution of the model
+    lonmax=(lon_0+180.)%360+incr # get some parameters for our arrays of lat/lon
+    lonmin=(lon_0-180.)
+    latmax=90+incr
+    lons=np.arange(lonmin,lonmax,incr) # make a 1D array of longitudes (like elons)
+    lats=np.arange(-90,latmax,incr)# make a 1D array of longitudes (like elats)
+    
+    
+    # set up some containers for the field elements
+    lenLats, lenLons = len(lats), len(lons)
+    B=np.zeros((lenLats,lenLons))
+    Binc=np.zeros((lenLats,lenLons))
+    Bdec=np.zeros((lenLats,lenLons))
+    Brad=np.zeros((lenLats,lenLons))
+    
+    for j in range(lenLats): # step through the latitudes
+        for i in range(lenLons): # and the longitudes
+            x,y,z,f=mkigrf.doigrf(lons[i],lats[j],date)  # get the field elements
+            Dec,Inc,Int=mkigrf.cart2dir(x,y,z) # turn them into polar coordites
+            B[j][i]=Int*1e-3 # convert the string to microtesla (from nT)
+            Binc[j][i]=Inc # store the inclination value
+            Bdec[j][i]=Dec # store the declination value
+    return Bdec,Binc,B,lons,lats # return the arrays.  
+
