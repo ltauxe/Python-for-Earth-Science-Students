@@ -18,4 +18,3 @@ dependencies:
   - xlwt=1.2.0
   - seaborn=0.9.0
   - imageio=2.4.1
-  - pysimplegui=3.20.0
