@@ -209,7 +209,6 @@ def cart2dir(x,y,z):
 
 #
 
-
 def magMap(date,**kwargs):
     """
     generates the data for a map of the magnetic field. 
@@ -250,8 +249,8 @@ def magMap(date,**kwargs):
     
     for j in range(lenLats): # step through the latitudes
         for i in range(lenLons): # and the longitudes
-            x,y,z,f=mkigrf.doigrf(lons[i],lats[j],date)  # get the field elements
-            Dec,Inc,Int=mkigrf.cart2dir(x,y,z) # turn them into polar coordites
+            x,y,z,f=doigrf(lons[i],lats[j],date)  # get the field elements
+            Dec,Inc,Int=cart2dir(x,y,z) # turn them into polar coordites
             B[j][i]=Int*1e-3 # convert the string to microtesla (from nT)
             Binc[j][i]=Inc # store the inclination value
             Bdec[j][i]=Dec # store the declination value
