@@ -1,0 +1,10 @@
+tab 	sites
+age	age_unit	citations	description	geologic_classes	geologic_types	int_abs	int_abs_sigma	int_abs_sigma_perc	int_n_samples	lat	lithologies	location	lon	method_codes	result_type	site	vadm	vadm_n_samples	vadm_sigma
+1859	Years AD (+/-)	This study	hw108	Extrusive:Igneous	Flow Top	0.000039	0.000002	5.1	10	19.8627	Basaltic Lava	Hawaii	204.0915	GM-HIST	i	hw108	8.69E+22	10	4.46E+21
+1907	Years AD (+/-)	This study		Extrusive:Igneous	Flow Top						Basaltic Lava	Hawaii		GM-HIST		hw123			
+1935	Years AD (+/-)	This study	hw126	Extrusive:Igneous	Flow Top	0.0000355	0.0000022	6.2	9	19.6856	Basaltic Lava	Hawaii	204.5355	GM-HIST	i	hw126	7.93E+22	9	4.91E+21
+1950	Years AD (+/-)	This study	hw128	Extrusive:Igneous	Flow Top	0.0000348	0.0000032	9.2	23	19.2641	Basaltic Lava	Hawaii	204.1257	GM-HIST	i	hw128	7.81E+22	23	7.18E+21
+1990	Years AD (+/-)	This study	hw201	Extrusive:Igneous	Flow Top	0.0000327	0.0000013	4	4	19.3622	Basaltic Lava	Hawaii	205.0334	GM-HIST	i	hw201	7.33E+22	4	2.91E+21
+2010	Years AD (+/-)	This study		Extrusive:Igneous	Flow Top						Basaltic Lava	Hawaii		GM-HIST		hw2010B			
+1843	Years AD (+/-)	This study	hw226	Extrusive:Igneous	Flow Top	0.0000392	0.0000024	6.1	6	19.6382	Basaltic Lava	Hawaii	204.4884	GM-HIST	i	hw226	8.77E+22	6	5.37E+21
+1960	Years AD (+/-)	This study	hw241	Extrusive:Igneous	Flow Top	0.000036	0.0000032	8.9	7	19.51591	Basaltic Lava	Hawaii	205.1902	GM-HIST	i	hw241	8.06E+22	7	7.16E+21
