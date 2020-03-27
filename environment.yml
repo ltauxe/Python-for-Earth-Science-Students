@@ -17,4 +17,5 @@ dependencies:
   - seaborn=0.9.0
   - imageio=2.4.1
   - geopandas=0.7.0
-  - descartes=1.1.0
+  - geoplots=0.4.0
+  - wavelets=0.1
