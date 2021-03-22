@@ -61,3 +61,7 @@ Once you have launched the jupyter notebook browser, navigate to your course dir
 ### Lecture synposis 
 
 A complete table of contents for this course can be found [here](https://nbviewer.jupyter.org/github/hpc4geo/Python-for-Earth-Science-Students/blob/main/_TableOfContents.ipynb).
+
+Note that the view above is static - you will not be able to execute or modify the notebooks.
+
+If you wish to explore the lectures interactively, you can access them via Binder [here](https://mybinder.org/v2/gh/hpc4geo/Python-for-Earth-Science-Students/main).
