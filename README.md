@@ -27,7 +27,7 @@ Computers are essential to all modern Earth Science research.  We use them for c
 
 ### Python
 
-So, why learn Python?  Because it is:
+#### Why Python?
 
 - Flexible, freely available, cross platform;
 
@@ -39,24 +39,15 @@ So, why learn Python?  Because it is:
 
 The name 'Python' refers to 'Monty Python' - not the snake - and many examples in the Python documentation use jokes from the old Monty Python skits.  If you have never heard of Monty Python, look it up on youtube; you are in for a treat. 
 
-##### Which Python?  
+#### Which Python?  
 
 - The notebooks in this repository are compatible with Python 3.6+. While most of the notebooks are compatible with Python 2.7, we do not test or maintain backwards compatibility.   
-- If you decide to use a personal computer, we recommend that you install the most recent version of Anaconda python for your operating system: 
-https://www.anaconda.com/download/
-you will also need a few extra packages (cartopy, version 0.17.0,  geoplots, geopandas and a few others) which can be installed with little hassle.  
 
 
 
 ### Jupyter notebooks
 
-This course is entirely structured around a special programming environment called [Jupyter notebooks](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html). A Jupyter notebook is a development environment where you can write, debug, and execute your python programs.  
-
-Clone or download this repository and launch the Jupyter notebook environment. 
-
-To do this, you will need to discover the hidden secret of your computer, the _terminal window_ (or Anaconda Prompt on a PC).  This little window provides a _command line interface_ in which you can type commands to the operating system. You  can  find the terminal window through the program `Terminal` on a Mac  by typing terminal.app into the search icon.  If you double click on it, it will open a terminal window.  To find it on a PC search for the program anaconda.
-
-Once you have launched the jupyter notebook browser, navigate to your course directory and open `Lecture_01.ipynb`.
+This course is entirely structured around a special programming environment called [Jupyter notebooks](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html). A Jupyter notebook is a development environment where you can write, debug, and execute your python programs. It ss a web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. Jupyter notebooks do not have to *exist, or be run on your computer*, they can be created and *run on a remote machine* - and you only *access* them via a web browser (e.g. Firefox, Safari, IE, Chrome). Hence you do not even need to install or run Python on you machine.
 
 
 
@@ -64,6 +55,20 @@ Once you have launched the jupyter notebook browser, navigate to your course dir
 
 A complete table of contents for this course can be found [here](https://nbviewer.jupyter.org/github/hpc4geo/Python-for-Earth-Science-Students/blob/main/_TableOfContents.ipynb).
 
-Note that the view above is static - you will not be able to execute or modify the notebooks.
+Note that the view above is read-only - you will not be able to execute or modify the notebooks.
 
-If you wish to explore the lectures interactively, you can access them via Binder [here](https://mybinder.org/v2/gh/hpc4geo/Python-for-Earth-Science-Students/main).
+If you wish to explore the lectures interactively, you can access them via Binder by clicking [here](https://mybinder.org/v2/gh/hpc4geo/Python-for-Earth-Science-Students/main), or by clicking the "launch Binder" button at the top of this ReadMe file.
+
+
+
+### Getting started
+
+The simplest way to be begin is by clicking the "launch Binder" button at the top of this ReadMe file. This "one-click" option will launch your personal Python Jupyter environment for this course.
+
+Once you have launched the Jupyter notebook environment, open the file `Lecture_01.ipynb`.
+
+
+
+### SIO113 course information (Spring 2021)
+
+Please refer [here](SIO113_CourseInformation.md) for a complete course description.
