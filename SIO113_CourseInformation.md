@@ -28,6 +28,8 @@ From [wikipedia](https://en.wikipedia.org/wiki/Python_(programming_language))
 
 The name 'Python' refers to 'Monty Python' - not the snake - and many examples in the Python documentation use jokes from the old Monty Python skits. If you have never heard of Monty Python, look it up on youtube.
 
+
+
 #### 2.2 Why Python?
 
 * Easier to learn than many other languages.
@@ -38,13 +40,17 @@ The name 'Python' refers to 'Monty Python' - not the snake - and many examples i
 * It can help you improve how you conduct your science (currently), and enable new scientific enterprises to begin.
 * Python programmers are in demand.
 
+
+
 #### 2.3 Which Python?
 
 The notebooks in this repository are compatible with Python 3.6+. While most of the notebooks are compatible with Python 2.7, we do not test or maintain backwards compatibility.
 
+
+
 #### 2.4 How will we use Python?
 
-We will learn Python via [Jupyter notebooks](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html). A Jupyter notebook is a development environment where you can write, debug, and execute your python programs. A Jupyter notebook is a web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. Jupyter notebooks do not have to *exist, or be run on your computer*, they can be created and *run on a remote machine* - and you only *access* them via a web browser (e.g. Firefox, Safari, IE, Chrome). Hence you do not even need to install or run Python on you machine.
+We will learn Python via [Jupyter notebooks](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html). A Jupyter notebook is a development environment where you can write, debug, and execute your python programs. It is a web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. Jupyter notebooks do not have to *exist, or be run on your computer*, they can be created and *run on a remote machine* - and you only *access* them via a web browser (e.g. Firefox, Safari, IE, Chrome). Hence you do not even need to install or run Python on you machine.
 
 We will primarly use the service provided by MyBinder (https://mybinder.org) to run Jupyter notebooks. See Section 9. Resources (point 3) for a one-click option to laucnh you personal Python Jupyter environment for this course.
 
@@ -89,6 +95,8 @@ We will primarly use the service provided by MyBinder (https://mybinder.org) to 
 
 * Friday 10:00 - 10:50  
 
+
+
 #### 5.1 Lectures
 
 For every lecture, there is an accompanying Jupyter notebook. You should read and familiarize yourself with the notebook before the lecture.
@@ -99,7 +107,9 @@ Every lecture will be structured as follows:
 * In the next 30-35 mins, we adopt a flipped classroom format. You will be re-reading the preprepared Jupyter notebook. This format is adopted to ensure you learn how to program - remember you will only learn the art of python by doing it yourself. Brendan and myself will assist you, and fill in any knowledge gaps.
 * A final wrap-up in the last 5 minutes.
 
-#### 5.2 Practical / Discussion Session
+
+
+#### 5.2 Practical / Discussion Sessions
 
 The format of the discussion sessions is left intentionally open. It is your time. The time is intended for to consildate your understanding of programming and master your new Python skills.
 
@@ -187,6 +197,8 @@ All assessments are to be submitted via Canvas.
 Precise instructions are provided in each practice problem and homework regarding how the submission should be organized. Please pay close attention to the naming convention requested in each assessment. Failure to adhere to the guidelines provided will result in penalties.
 
 Remember, the rule "You should only believe code you can run": we will be applying this rule when grading your work. If we cannot run the Python code you have submitted you will not receive full marks. You must submitted all data files, inputs required to reproduce your results. We will not chase if your submission is incomplete - this is your responsibility. Please test your submissions before uploading them to Canvas.
+
+
 
 #### 7.1 Practice Problems
 
@@ -290,11 +302,11 @@ On 09-Jun (exam week), you will give a 5 minute presentation to the class about 
 
      
 
-2. You may download the entire contents of the course material using this URL
+2. You may download the entire contents of the course material from the following URL
 
    https://github.com/hpc4geo/Python-for-Earth-Science-Students/archive/refs/heads/main.zip
 
-   Remember content may be altered / updated / improved over the quarter, so if you are downloading the material, do so regularly (weekly)
+   Remember content may be altered / updated / improved over the quarter, so if you are downloading the material, do so regularly (weekly).
 
    
 
@@ -302,6 +314,6 @@ On 09-Jun (exam week), you will give a 5 minute presentation to the class about 
 
    [https://mybinder.org/v2/gh/hpc4geo/Python-for-Earth-Science-Students/main](https://mybinder.org/v2/gh/hpc4geo/Python-for-Earth-Science-Students/main)
 
-   or by simply clicking the "launcg binder" badge found at URL listed in item 1.
+   or by simply clicking the "launch binder" badge within the README file displayed when accessing the URL in item 1.
 
    
