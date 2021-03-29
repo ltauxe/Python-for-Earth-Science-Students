@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hpc4geo/Python-for-Earth-Science-Students/main)
+
 ## Python Programming for the Earth Sciences
 
 Authors: Lisa Tauxe (ltauxe@ucsd.edu), Hanna Asefaw (hasefaw@ucs.dedu), Brendan Cych (bcych@ucsd.edu) & Dave May (dmay@ucsd.edu).
