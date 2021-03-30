@@ -47,7 +47,7 @@ The name 'Python' refers to 'Monty Python' - not the snake - and many examples i
 
 ### Jupyter notebooks
 
-This course is entirely structured around a special programming environment called [Jupyter notebooks](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html). A Jupyter notebook is a development environment where you can write, debug, and execute your python programs. It ss a web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. Jupyter notebooks do not have to *exist, or be run on your computer*, they can be created and *run on a remote machine* - and you only *access* them via a web browser (e.g. Firefox, Safari, IE, Chrome). Hence you do not even need to install or run Python on you machine.
+This course is entirely structured around a special programming environment called [Jupyter notebooks](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html). A Jupyter notebook is a development environment where you can write, debug, and execute your python programs. It is a web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. Jupyter notebooks do not have to *exist, or be run on your computer*, they can be created and run on a *remote machine* in which you *access* them via a web browser (e.g. Firefox, Safari, IE, Chrome). Hence you do not even need to install Python on your computer.
 
 
 
@@ -63,7 +63,7 @@ If you wish to explore the lectures interactively, you can access them via Binde
 
 ### Getting started
 
-The simplest way to be begin is by clicking the "launch Binder" button at the top of this ReadMe file. This "one-click" option will launch your personal Python Jupyter environment for this course.
+The simplest way to begin is by clicking the "launch Binder" button at the top of this ReadMe file. This "one-click" option will launch your personal Jupyter environment for this course.
 
 Once you have launched the Jupyter notebook environment, open the file `Lecture_01.ipynb`.
 
