@@ -169,8 +169,8 @@ Below is a tentative schedule.
 | L          | 21-May | L24: Gridding & contouring                            |                                                  |
 | P          |        | Discussion 8                                          | HW#8 distributed; HW#7 due                       |
 | L          | 26-May | L25: 3D scatter plots and surfaces                    |                                                  |
-| L          |        | L26: Time series analysis                             |                                                  |
-| L          | 28-May | L27: Animations                                       |                                                  |
+| L          |        | L26: Topography and DEMs                              |                                                  |
+| L          | 28-May | L27: Landscape evolution                              |                                                  |
 | P          |        | Discussion 9                                          | HW#9 distributed; HW#8 due                       |
 | L          | 02-Jun | Beyond this course                                    |                                                  |
 | P          |        | Practical, project work                               |                                                  |
