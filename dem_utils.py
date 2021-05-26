@@ -212,6 +212,61 @@ def flow_accumulate(receiver, z, field=None):
   return accumulate
 
 
+def upstream_slope(x1d, y1d, receiver, z):
+  """
+  Compute the upstream slope.
+  
+    Parameters:
+  -----------
+  x1d : ndarray, shape(nx, )
+    Array of 1D x coordinates.
+  y1d : ndarray, shape(ny, )
+    Array of 1D y coordinates.
+  receiver : ndarray, shape(ncells, )
+    Array of cell indices of the lowest cell neighbor.
+  z : ndarray, shape(ncells, )
+    Array of elevations.
+  
+  Output:
+  -----------
+  slope : ndarray(nx * ny, )
+    Array defining the upstream slope.
+    
+  Exceptions:
+  -----------
+  `ValueError` will be raised if a size mismatch is detected in any of the input arguments.
+  """
+
+  if receiver.ndim != 1:
+    raise ValueError("receiver must have dimension 1, found " + str(receiver.ndim))
+  if z.ndim != 1:
+    raise ValueError("z must have dimension 1, found " + str(z.ndim))
+
+  nx = x1d.shape[0]
+  ncells = z.shape[0]
+  slope = np.zeros(ncells)
+  idx = np.zeros(ncells, dtype=np.int64)
+  horder = np.argsort(z)
+  r_horder = horder[-1::-1]
+  for ck in range(ncells):
+    c = r_horder[ck]
+    height_low = z[c]
+    height_high = z[c]
+    if receiver[c] != -1:
+      height_low = z[receiver[c]]
+      
+      jj = int(c / nx)
+      ii = c - jj * nx
+      njj = int(receiver[c] / nx)
+      nii = receiver[c] - njj * nx
+    
+      dL = (x1d[ii] - x1d[nii])**2 + (y1d[jj] - y1d[njj])**2
+    
+      slope[c] = (height_high - height_low) / np.sqrt(dL)
+    
+  return slope
+        
+
 def _detect_pits(cell_neighbor, z):
   
   ncells = z.shape[0]
@@ -297,8 +352,6 @@ def fill_pits(cell_neighbor, z):
       raise ValueError("fill_pits() executed maximum number of iterations without removing all pits")
 
 
-
-
 def diffusion_equation_perform_one_step(dx, dy, kappa, T,
                                         source=None,
                                         dbc_left=None, dbc_right=None, dbc_top=None, dbc_bottom=None,
@@ -307,15 +360,21 @@ def diffusion_equation_perform_one_step(dx, dy, kappa, T,
   Performs a single time step of the time-dependent diffusion equation in 2-D, given by
     \partial T / \partial t = \div( k grad(T) ) + S
   The diffusion equation is solved using a finite difference method in space and time.
-  The finite difference grid consists of nx x ny cells.
+  The finite difference grid consists of nx x ny FD cells.
   The discrete solution of the finite difference problem is defined at the center of each cell.
   Each cell in the finite difference grid has a physical size of dx x dy.
   
   Dirichlet boundary conditions are specified by setting one (or more) of 
     dbc_left, dbc_right, dbc_top, dbc_bottom 
   to a value of True. These parameters define which side of the domain will have an imposed
-  Dirichlet boundary condition.
-  At least one Dirichlet boundary condition must be specified.
+  Dirichlet boundary condition. 
+  When a Dirichlet boundary condition is specified, the value of the Dirichlet condition
+  to use is taken from the input array `T` along the appropriate boundary segment.
+  When a Dirichlet boundary conditon is not specified, a zero flux condition is assumed.
+  It is recommended that at least one Dirichlet boundary condition must be specified.
+  
+  An optimal time-step will internally be computed and used if the caller does not
+  provided a value for `dt_user`.
   
   Parameters:
   -----------
@@ -329,19 +388,22 @@ def diffusion_equation_perform_one_step(dx, dy, kappa, T,
     The value of T at time t.
   source (optional): ndarray, shape(nx, ny)
     The source term (denoted by S in the equation above)
-  dbc_left
+  dbc_left, dbc_right, dbc_top, dbc_bottom (all optional): Bool
+    Flag to indicate whether the unknown should be fixed along a given
+    side of the boundary.
+  dt_user (optional) : float
+    A user provided time-step to advance the solution forward by.
 
   Output:
   -------
   dt : float
     Timestep used.
-  T_next : ndarray, shape(M, N)
+  T_next : ndarray, shape(nx, ny)
     Solution at the next time t + dt.
     
   Exceptions:
   -----------
   `ValueError` will be raised if a size mismatch is detected in any of the input arguments.
-  `ValueError` will be raised if no boundary conditions are specified.
   """
   
   if T.ndim != 2:
@@ -359,7 +421,7 @@ def diffusion_equation_perform_one_step(dx, dy, kappa, T,
 
   if dt_user is None:
     # Compute a stable time step
-    dt = 0.5 * min(dx, dy)**2.0 / np.max(kappa)
+    dt = 0.25 * min(dx, dy)**2.0 / np.max(kappa)
     if dt_user is not None:
       dt = min(dt, dt_user)
   else:
@@ -372,13 +434,12 @@ def diffusion_equation_perform_one_step(dx, dy, kappa, T,
   T_t = np.copy(T[:  , N-1])
   T_l = np.copy(T[0  , :])
   T_r = np.copy(T[M-1, :])
-
   
   # Compute the harmonic average of the diffusivity in the x direction
   kappa_x = np.zeros((M+1, N))
   for i in range(1, M):
     kappa_x[i, :] = (0.5/kappa[i, :] + 0.5/kappa[i-1, :])**(-1.0) # harmonic average
-   #kappa_x[i, :] = 0.5*(kappa[i, :] + kappa[i-1, :]) # arithmetic average
+    #kappa_x[i, :] = 0.5*(kappa[i, :] + kappa[i-1, :]) # arithmetic average
   
   # Compute the harmonic average of the diffusivity in the y direction
   kappa_y = np.zeros((M, N+1))
@@ -407,7 +468,15 @@ def diffusion_equation_perform_one_step(dx, dy, kappa, T,
 
   # Perform Euler step
   if source is not None:
+    
+    if dt_user is None:
+        dT = np.absolute(F) + np.absolute(source)
+        delta_T_max = np.max(dT) # dT_max = dt . (F + S) < 0.1 * min(dx, dy)
+        dt_source = 0.1 * min(dx, dy) / delta_T_max
+        dt = min(dt, dt_source)
+        
     T_next[:, :] += dt * (F[:, :] + source[:, :])
+
   else:
     T_next[:, :] += dt * F[:, :]
                       
@@ -419,7 +488,7 @@ def diffusion_equation_perform_one_step(dx, dy, kappa, T,
   if dbc_left == True:
     T_next[0, :] = T_l[:]
   if dbc_right == True:
-    T_next[M-1:, 0] = T_r[:]
+    T_next[M-1, :] = T_r[:]
 
   return dt, T_next
 
