@@ -216,7 +216,7 @@ def upstream_slope(x1d, y1d, receiver, z):
   """
   Compute the upstream slope.
   
-    Parameters:
+  Parameters:
   -----------
   x1d : ndarray, shape(nx, )
     Array of 1D x coordinates.
@@ -231,8 +231,8 @@ def upstream_slope(x1d, y1d, receiver, z):
   -----------
   slope : ndarray(nx * ny, )
     Array defining the upstream slope.
-    
-  Exceptions:
+  
+  Exception:
   -----------
   `ValueError` will be raised if a size mismatch is detected in any of the input arguments.
   """
@@ -244,28 +244,24 @@ def upstream_slope(x1d, y1d, receiver, z):
 
   nx = x1d.shape[0]
   ncells = z.shape[0]
+
   slope = np.zeros(ncells)
-  idx = np.zeros(ncells, dtype=np.int64)
-  horder = np.argsort(z)
-  r_horder = horder[-1::-1]
-  for ck in range(ncells):
-    c = r_horder[ck]
-    height_low = z[c]
-    height_high = z[c]
-    if receiver[c] != -1:
-      height_low = z[receiver[c]]
-      
-      jj = int(c / nx)
-      ii = c - jj * nx
-      njj = int(receiver[c] / nx)
-      nii = receiver[c] - njj * nx
-    
-      dL = (x1d[ii] - x1d[nii])**2 + (y1d[jj] - y1d[njj])**2
-    
-      slope[c] = (height_high - height_low) / np.sqrt(dL)
-    
+  cidx = np.arange(ncells, dtype=np.int64)
+  r_flow = receiver != -1 # select cells to iterate on based on recv value
+  cidx = cidx[r_flow] # get cells to traverse
+  z_high = z[cidx]
+  z_low = z[receiver[cidx]]
+  jj = cidx / nx
+  jj = jj.astype(np.int64) # cast to int
+  ii = cidx - jj * nx
+  njj = receiver[cidx] / nx
+  njj = njj.astype(np.int64) # cast to int
+  nii = receiver[cidx] - njj * nx
+  dL = (x1d[ii] - x1d[nii])**2 + (y1d[jj] - y1d[njj])**2
+  slope[cidx] = (z_high - z_low) / np.sqrt(dL)
+  
   return slope
-        
+
 
 def _detect_pits(cell_neighbor, z):
   
@@ -355,7 +351,7 @@ def fill_pits(cell_neighbor, z):
 def diffusion_equation_perform_one_step(dx, dy, kappa, T,
                                         source=None,
                                         dbc_left=None, dbc_right=None, dbc_top=None, dbc_bottom=None,
-                                        dt_user=None):
+                                        dt_user=None, dt_max=1.0e20):
   """
   Performs a single time step of the time-dependent diffusion equation in 2-D, given by
     \partial T / \partial t = \div( k grad(T) ) + S
@@ -393,6 +389,8 @@ def diffusion_equation_perform_one_step(dx, dy, kappa, T,
     side of the boundary.
   dt_user (optional) : float
     A user provided time-step to advance the solution forward by.
+  dt_max (optional) : float
+    The maximum allowable time-step.
 
   Output:
   -------
@@ -413,9 +411,9 @@ def diffusion_equation_perform_one_step(dx, dy, kappa, T,
   if source is not None and source.ndim != 2:
     raise ValueError("source must have dimension 2, found " + str(source.ndim))
 
-  if dbc_left is None and dbc_right is None:
-    if dbc_top is None and dbc_bottom is None:
-      raise ValueError("At least one of dbc_left, dbc_right, dbc_top, dbc_bottom must be specified")
+  #if dbc_left is None and dbc_right is None:
+  #  if dbc_top is None and dbc_bottom is None:
+  #    raise ValueError("At least one of dbc_left, dbc_right, dbc_top, dbc_bottom must be specified")
 
   M, N = T.shape
 
@@ -426,6 +424,9 @@ def diffusion_equation_perform_one_step(dx, dy, kappa, T,
       dt = min(dt, dt_user)
   else:
     dt = dt_user
+
+  if dt > dt_max:
+    dt = dt_max
 
   T_next = np.copy(T)
 
@@ -474,7 +475,10 @@ def diffusion_equation_perform_one_step(dx, dy, kappa, T,
         delta_T_max = np.max(dT) # dT_max = dt . (F + S) < 0.1 * min(dx, dy)
         dt_source = 0.1 * min(dx, dy) / delta_T_max
         dt = min(dt, dt_source)
-        
+
+    if dt > dt_max:
+      dt = dt_max
+
     T_next[:, :] += dt * (F[:, :] + source[:, :])
 
   else:
