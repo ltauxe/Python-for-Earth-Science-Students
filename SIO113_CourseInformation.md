@@ -204,9 +204,9 @@ Remember, the rule "You should only believe code you can run": we will be applyi
 
 For lectures 2 through 26, there is an accompanying set of exercise to be completed. The intention is that you complete these during each lecture. Due to the course scheduling, we will use the following submission schedule:
 
-- Practice problem from Wed. 10:30 lecture is due by midnight on Wed.
-- Practice problem from Wed. 11:30 lecture is due by midnight on Thur.
-- Practice problem from Fri. 09:00 lecture is due by midnight on Fri. 
+- Practice problem from Wed. 10:30 lecture is due by midnight on Wed. (same day)
+- Practice problem from Wed. 11:30 lecture is due by midnight on Fri. (same week)
+- Practice problem from Fri. 09:00 lecture is due by midnight on Mon. (following week) 
   
 
 #### 7.2 Homework
