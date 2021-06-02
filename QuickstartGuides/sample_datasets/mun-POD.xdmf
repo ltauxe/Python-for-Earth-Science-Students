@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd" []>
+<Xdmf Version="2.0">
+  <Domain>
+    <Grid Name="TimeSeries" GridType="Collection" CollectionType="Temporal">
+      <Grid Name="step_000000000000" GridType="Uniform">
+        <Topology TopologyType="Triangle" NumberOfElements="21187">
+          <DataItem NumberType="Int" Precision="8" Format="HDF" Dimensions="21187 3">data/mun-GME/mun-GME-surface_cell.h5:/mesh0/connect</DataItem>
+        </Topology>
+        <Geometry Name="geo" GeometryType="XYZ" NumberOfElements="10783">
+          <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="10783 3">data/mun-GME/mun-GME-surface_vertex.h5:/mesh0/geometry</DataItem>
+        </Geometry>
+        <Time Value="0"/>
+
+        <Attribute Name="SA00.POD" Center="Cell">
+          <DataItem ItemType="HyperSlab" Dimensions="21187">
+            <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">0 0 1 1 1 21187</DataItem>
+            <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="1 21187">pod_surface_cell.h5:/mesh0/pod</DataItem>
+          </DataItem>
+        </Attribute>
+
+      </Grid>
+    </Grid>
+  </Domain>
+</Xdmf>

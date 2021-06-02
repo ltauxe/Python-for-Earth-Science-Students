@@ -1,0 +1,63 @@
+{
+	"pTatinCtx":	{
+		"commSize":	1,
+		"mx":	8,
+		"my":	8,
+		"mz":	8,
+		"restartFromFile":	false,
+		"restartPath":	"",
+		"checkpointEvery":	1000,
+		"checkpointEveryNSteps":	1000,
+		"checkpointEveryNCPUMins":	90,
+		"useMFStokes":	false,
+		"formattedTimestamp":	"2021.01.18_12:58:26",
+		"outputPath":	"sinker-ex1-const",
+		"coefficientProjectionType":	1,
+		"solverStatistics":	false,
+		"continuation_m":	1,
+		"continuation_M":	1,
+		"timeStep":	1,
+		"timeStepMax":	5,
+		"timeStepSize":	0.095005,
+		"timeStepSizeMax":	1000,
+		"timeStepSizeMin":	0.000001,
+		"timeStepSizeAdv":	0,
+		"constantTimeStepSize":	0,
+		"useConstantTimeStepSize":	false,
+		"time":	0.019394,
+		"timeMax":	100000000000000005366162204393472,
+		"outputFrequency":	2,
+		"stokes->gravity_vector":	{
+			"ctype":	"double",
+			"length":	3,
+			"dataFormat":	"ascii",
+			"data":	[0, 0, -10],
+			"data[ascii]":	[0, 0, -10]
+		},
+		"stokes->dmv":	{
+			"ctype":	"DMDA",
+			"dataFormat":	"json-meta",
+			"fileName":	"sinker-ex1-const/checkpoints/step1/stokes_v_dmda.json"
+		},
+		"materialpoint_db":	{
+			"ctype":	"DataBucket",
+			"dataFormat":	"native",
+			"fileName":	"sinker-ex1-const/checkpoints/step1/materialpoint_db.json"
+		},
+		"material_constants":	{
+			"ctype":	"DataBucket",
+			"dataFormat":	"native",
+			"fileName":	"sinker-ex1-const/checkpoints/step1/materialconstants_db.json"
+		},
+		"stokes.Xs->Xv":	{
+			"ctype":	"Vec",
+			"dataFormat":	"petsc-binary",
+			"fileName":	"sinker-ex1-const/checkpoints/step1/ptatinstate_stokes_Xv.pbvec"
+		},
+		"stokes.Xs->Xp":	{
+			"ctype":	"Vec",
+			"dataFormat":	"petsc-binary",
+			"fileName":	"sinker-ex1-const/checkpoints/step1/ptatinstate_stokes_Xp.pbvec"
+		}
+	}
+}
