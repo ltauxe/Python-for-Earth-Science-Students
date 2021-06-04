@@ -189,7 +189,7 @@ There is no final exam. The assement is progressive and distributed over the qua
 * *25% Practice problems (25 in total)*
   * We will take the best 23 of 25.
 * *50% Homework assignments (9 in total)*
-  * We will the best 8 of 9.
+  * We will take the best 8 of 9.
 * *25% Final project*
 
 All assessments are to be submitted via Canvas.
