@@ -246,7 +246,7 @@ You will submit the final project to Canvas as a zipped directory with all the p
 
 In Week 6, you will be asked to turn in a proposal for the final project. In the proposal, you’ll describe the final project and how it relates to Earth and Space Science. At that stage, you still may not have all the skills required to complete your project, but we can let you know if it is possible and substantial enough for the final project.
 
-On 09-Jun (exam week), you will give a 5 minute presentation to the class about your project. Unless prior approval is made, attendance is required.
+On 09-Jun (exam week), you will give a 3 minute presentation to the class about your project. Unless prior approval is made, attendance is required.
 
 #### 
 
