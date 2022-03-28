@@ -1,10 +1,10 @@
-# SIO 113 Introduction to Computational Earth Sciences
+# SIO 113 Computation & Data Analysis in the Geosciences
 
-*Spring 2021*
+*Spring 2022*
 
 *Instructor:* Dave May ([dmay@ucsd.edu](mailto:dmay@ucsd.edu?subject=))
 
-*Assistant:* Brendan Cych ([bcych@ucsd.edu](mailto:bcych@ucsd.edu?subject=))
+*Assistant:* Gabrielle Hobson (ghobson@ucsd.edu](mailto:ghobson@ucsd.edu?subject=))
 
 
 
@@ -85,15 +85,15 @@ We will primarly use the service provided by MyBinder (https://mybinder.org) to 
 
 ### 5. Course Format
 
-*Three lectures per week (28 lectures in total):*
+Three lectures per week (28 lectures in total):
 
-* Wednesday 10:30 - 11:20
-* Wednesday 11:30 - 12:20
-* Friday 09:00 - 09:50 
+* Monday 13:30 - 14:20
+* Wednesday 13:30 - 14:20
+* Friday 13:30 - 14:20 
 
-*One practical / discussion session per week:*
+One practical / discussion session per week:
 
-* Friday 10:00 - 10:50  
+* Friday 14:30 - 15:20  
 
 
 
@@ -111,9 +111,9 @@ Every lecture will be structured as follows:
 
 #### 5.2 Practical / Discussion Sessions
 
-The format of the discussion sessions is left intentionally open. It is your time. The time is intended for to consildate your understanding of programming and master your new Python skills.
+The format of the discussion sessions is left intentionally open. It is your time. The time is intended for to consolidate your understanding of programming and master your new Python skills.
 
-Brendan and myself will be present to assist with any and all questions you may have regarding lecture material, practice problems or assignment questions. 
+The instructor and TA will be present to assist with any questions you may have regarding lecture material, practice problems or assignment questions. 
 
 We expect you will use this time to:
 
@@ -124,8 +124,6 @@ No Python topic is off-limits - if you have a quesions - please ask. We are here
 
 There will be an assignment distributed at the beginning of each practical class which will be presented (~5 mins).
 
-In addition, in some discussions we will have short "pop-up" presentations from SIO faculty to present how and what they are using Python for in their day-to-day scientific research. This should provide useful insight for final project ideas.
-
 
 
 ### 6. Schedule
@@ -134,51 +132,55 @@ Below is a tentative schedule.
 
 "L" = lecture; "P" = practical; "HW" = homework
 
-| Class type | Date   | Topic                                                 | Action                                           |
-| ---------- | ------ | :---------------------------------------------------- | ------------------------------------------------ |
-| L          | 31-Mar | L1: Introduction, Python, Jupyter notebooks           |                                                  |
-| L          |        | L2: Variables and operations                          |                                                  |
-| L          | 02-Apr | L3: Data structures                                   |                                                  |
-| P          |        | Discussion 1                                          | HW#1 distributed                                 |
-| L          | 07-Apr | L4: Dictionaries, loops                               |                                                  |
-| L          |        | L5: Functions & modules                               |                                                  |
-| L          | 09-Apr | L6: Numpy and matplotlib                              |                                                  |
-| P          |        | Discussion 2                                          | HW#2 distributed; HW#1 due                       |
-| L          | 14-Apr | L7: Numpy arrays                                      |                                                  |
-| L          |        | L8: Numpy, matplotlib, pandas                         |                                                  |
-| L          | 16-Apr | L9: Pandas filtering                                  |                                                  |
-| P          |        | Discussion 3                                          | HW#3 distributed; HW#2 due                       |
-| L          | 21-Apr | L10: Object oriented programming                      |                                                  |
-| L          |        | L11: Lambda, list & dict comprehension, exceptions    |                                                  |
-| L          | 23-Apr | L12: Data wrangling with Pandas                       |                                                  |
-| P          |        | Discussion 4                                          | HW#4 distributed; HW#3 due                       |
-| L          | 28-Apr | L13: More Pandas, subplots, bar charts and pie charts |                                                  |
-| L          |        | L14: Histograms, distributions                        |                                                  |
-| L          | 30-Apr | L15: Statistics                                       |                                                  |
-| P          |        | Discussion 5                                          | HW#5 distributed; HW#4 due                       |
-| L          | 05-May | L16: Line and curve fitting, scikit-learn             |                                                  |
-| L          |        | L17: cartopy                                          |                                                  |
-| L          | 07-May | L18: geoplot & geopandas                              |                                                  |
-| P          |        | Discussion 6                                          | HW#6 distributed; HW#5 due; Project proposal due |
-| L          | 12-May | L19: Rose diagrams, projections                       |                                                  |
-| L          |        | L20: Matrix math / linear algebra                     |                                                  |
-| L          | 14-May | L21: Plotting great and small circles                 |                                                  |
-| P          |        | Discussion 7                                          | HW#7 distributed; HW#6 due                       |
-| L          | 19-May | L22: scikit-learn: Cluster analysis                   |                                                  |
-| L          |        | L23: scikit-learn: Classification                     |                                                  |
-| L          | 21-May | L24: Gridding & contouring                            |                                                  |
-| P          |        | Discussion 8                                          | HW#8 distributed; HW#7 due                       |
-| L          | 26-May | L25: 3D scatter plots and surfaces                    |                                                  |
-| L          |        | L26: Topography and DEMs                              |                                                  |
-| L          | 28-May | L27: Landscape evolution                              |                                                  |
-| P          |        | Discussion 9                                          | HW#9 distributed; HW#8 due                       |
-| L          | 02-Jun | Beyond this course                                    |                                                  |
-| P          |        | Practical, project work                               |                                                  |
-| P          | 04-Jun | Practical, project work                               |                                                  |
-| P          |        | Discussion / project work                             | HW#9 due                                         |
-| P          | 09-Jun | Student presentations (part 1)                        |                                                  |
-| P          |        | Student presentations (part 2)                        |                                                  |
-| -          | 11-Jun |                                                       | Final project due                                |
+| Class type | Date   | Topic                                                 | Action           |
+| ---------- | ------ | :---------------------------------------------------- | ---------------- |
+| L          | 28-Mar | L1: Introduction, Python, Jupyter notebooks           |                  |
+| L          | 30-Mar | L2: Variables and operations                          |                  |
+| L          | 01-Apr | L3: Data structures                                   |                  |
+| P          |        | Practical 1                                           | HW#1 distributed |
+| L          | 04-Apr | L4: Dictionaries, loops                               |                  |
+| L          | 06-Apr | L5: Functions & modules                               |                  |
+| L          | 08-Apr | L6: Numpy and matplotlib                              |                  |
+| P          |        | Practical 2                                           | HW#2 distributed |
+| L          | 11-Apr | L7: Numpy arrays                                      |                  |
+| L          | 13-Apr | L8: Numpy, matplotlib, pandas                         |                  |
+| L          | 15-Apr | L9: Pandas filtering                                  |                  |
+| P          |        | Practical 3                                           | HW#3 distributed |
+| L          | 18-Apr | L10: Object oriented programming                      |                  |
+| L          | 20-Apr | L11: Lambda, list & dict comprehension, exceptions    |                  |
+| L          | 22-Apr | L12: Data wrangling with Pandas                       |                  |
+| P          |        | Practical 4                                           | HW#4 distributed |
+| L          | 25-Apr | L13: More Pandas, subplots, bar charts and pie charts |                  |
+| L          | 27-Apr | L14: Histograms, distributions                        |                  |
+| L          | 29-Apr | L15: Statistics                                       |                  |
+| P          |        | Practical 5                                           | HW#5 distributed |
+| L          | 02-May | L16: Line and curve fitting, scikit-learn             |                  |
+| L          | 04-May | L17: cartopy                                          |                  |
+| L          | 06-May | L18: geoplot & geopandas                              |                  |
+| P          |        | Practical 6                                           | HW#6 distributed |
+| L          | 09-May | L19: Rose diagrams, projections                       |                  |
+| L          | 11-May | L20: Matrix math / linear algebra                     |                  |
+| L          | 13-May | L21: Plotting great and small circles                 |                  |
+| P          |        | Practical 7                                           | HW#7 distributed |
+| L          | 16-May | L22: scikit-learn: Cluster analysis                   |                  |
+| L          | 18-May | L23: scikit-learn: Classification                     |                  |
+| L          | 20-May | L24: Gridding & contouring                            |                  |
+| P          |        | Practical 8                                           | HW#8 distributed |
+| L          | 23-May | L25: 3D scatter plots and surfaces                    |                  |
+| L          | 25-May | L26: Topography and DEMs                              |                  |
+| L          | 27-May | L27: Landscape evolution                              |                  |
+| P          |        | Practical 9                                           | HW#9 distributed |
+|            | 30-May | Memorial Day observance                               |                  |
+| P          | 01-Jun | Student presentations (part 1)                        |                  |
+| P          | 03-Jun | Student presentations (part 2)                        |                  |
+|            |        |                                                       |                  |
+|            |        |                                                       |                  |
+|            |        |                                                       |                  |
+|            |        |                                                       |                  |
+
+
+
+Please note that the course material is dynamic - we improve the material over the duration of the quarter (and fix bugs). Whilst all notebooks are already available, please download them at the beginning of each week. Unless otherwise indicated, the provided notebooks for the week will not be altered after Sunday morning.
 
 
 
@@ -202,18 +204,19 @@ Remember, the rule "You should only believe code you can run": we will be applyi
 
 #### 7.1 Practice Problems
 
-For lectures 2 through 26, there is an accompanying set of exercise to be completed. The intention is that you complete these during each lecture. Due to the course scheduling, we will use the following submission schedule:
+For lectures 2 through 26, there is an accompanying set of exercise to be completed. The intention is that you complete these during each lecture. 
 
-- Practice problem from Wed. 10:30 lecture is due by midnight on Wed. (same day)
-- Practice problem from Wed. 11:30 lecture is due by midnight on Fri. (same week)
-- Practice problem from Fri. 09:00 lecture is due by midnight on Mon. (following week) 
-  
+- Practice problems from Mon, Wed, Fri are due by midnight on Sunday (same week).
 
-#### 7.2 Homework
+- Each practice problem needs to be submitted seperately into Canvas.
 
-A homework assignment will be distributed at the beginning of each discussion session. 
+   
 
-* Each homework is due by midnight on the following Fri.
+#### 7.2 Homework Assignments
+
+A homework assignment will be distributed every week at the beginning of each practical session (Friday). 
+
+* Each homework assignment is due by midnight on Sunday (following week).
 
   
 
@@ -221,9 +224,9 @@ A homework assignment will be distributed at the beginning of each discussion se
 
 The final project has three important deadlines.
 
-* Project proposal due 07-May (week 6).
-* Project presentation 09-Jun.
-* Final submission 11-Jun.
+* Project proposal due 06-May (week 6).
+* Project presentations 01/03-Jun.
+* Final submission 08-Jun.
 
 The final project is your opportunity to be creative and showcase the Python skills you have learned during this course by applying them to an Earth science application. There is a great deal of flexibility on the exact nature of the final project but it must be related to Earth and Space Science. 
 
@@ -237,7 +240,7 @@ As you learn new concepts, start thinking about what you’d like to create for 
 
 Whatever the specifics of your project, at the bare minimum your project must:
 
-* include at least one module with three functions;
+* include at least one module with three (non-trivial) functions you wrote;
 * read in at least one datafile;
 * make at least one plot;
 * use at least three markdown blocks covering (i) a description of what the program does; (b) instructions on how to use the program, (c) a summary of the scientific conclusions.
@@ -246,41 +249,34 @@ You will submit the final project to Canvas as a zipped directory with all the p
 
 In Week 6, you will be asked to turn in a proposal for the final project. In the proposal, you’ll describe the final project and how it relates to Earth and Space Science. At that stage, you still may not have all the skills required to complete your project, but we can let you know if it is possible and substantial enough for the final project.
 
-On 09-Jun (exam week), you will give a 3 minute presentation to the class about your project. Unless prior approval is made, attendance is required.
+On 01/03-Jun you will give a 3 minute presentation to the class about your project. Unless prior approval is made, attendance is required.
 
-#### 
+
 
 ### 8. Expectations
 
-* Read the notebook before coming to the lecture.
-
-  Please note that the course material is dynamic - we improve the material over the duration of the quarter (and fix bugs). Whilst all notebooks are already available, please download them at the beginning of each week. Unless otherwise stated, the provided notebooks for the week will not be altered after Sunday morning.
+* Read the Juypter notebook before coming to the lecture.
 
 * Weekly homework assignments are mandatory as is the final project.
-
-* Homework will not be accepted late. For anyone attending asynchronously (temporarily, or for the entirety of the course), please contact me. 
-
+* Homework will not be accepted late.  
 * Code submissions must be complete - all required data files must be provided.
-
-* You may consult any online resources, your fellow students & your instructor/TA to help you solve your problems. This is encouraged, however do NOT copy what you find verbatim. You must re-work the solutions in your own words and style, otherwise you will not learn how to program. Copying programs does not help you learn and is considered “cheating”. Cheating will be reported to the authorities.
-
-* The best way to learn how to program is to attend the lectures, complete the practice problems and assignments, and attend the discussion section where your instructor/TA can help you. 
+* You may consult any online resources, your fellow students & your instructor / TA to help you solve your problems. When utilizing online resources or when working in a group, please refer to Section 10 Academic Integrity  (below) to ensure you give the appropriate acknowledgement and attribution to the work which you are not the sole author of.
 
 
 
-### 9. Resources
+### 9. Course Resources
 
 1. All course material is available at the following website
 
    https://github.com/hpc4geo/Python-for-Earth-Science-Students
 
-   * Lectures are found in the root directory and are named
+   - Lectures are found in the root directory and are named
 
      ```
      Lecture_XX.ipynb
      ```
 
-   * All practice problems are found in the sub-directory 
+   - All practice problems are found in the sub-directory 
 
      [Practice_Problems/](https://github.com/hpc4geo/Python-for-Earth-Science-Students/tree/main/Practice_Problems)
 
@@ -290,7 +286,7 @@ On 09-Jun (exam week), you will give a 3 minute presentation to the class about 
      Lecture_XX_Practice_Problems.ipynb
      ```
 
-   * All homework assignments can be found in the sub-directory
+   - All homework assignments can be found in the sub-directory
 
      [Assignments/](https://github.com/hpc4geo/Python-for-Earth-Science-Students/tree/main/Assignments)
 
@@ -317,3 +313,43 @@ On 09-Jun (exam week), you will give a 3 minute presentation to the class about 
    or by simply clicking the "launch binder" badge within the README file displayed when accessing the URL in item 1.
 
    
+
+### 10. Academic Integrity
+
+All coursework that you will produce in this unit should be original work that is yours alone. Copying work or the re-use of any material without proper acknowledgement or attribution is considered plagiarism. At UCSD, plagiarism is not acceptable. 
+
+Guidelines for giving proper acknowledgement or attribution to others work is provided below.
+
+**Group work**
+
+* If you worked in a group, you need to indicate all people involved in the group work and clearly state what your contributions were.
+* If you use material from another student, you need to indicate who the student was and detail exactly what material was re-used and state clearly any modifications you made to their work.
+
+**Online resources**
+
+* If you used a tutorial (i.e. followed it extensively) you must provide the URL (web address) of the original material and indicate that you used an online resource as part of your submitted work. You must indicate which parts of the tutorial you used.
+* If you used a script, or piece of computer code (e.g. taken from the tutorial, or a site such as StackOverflow) you must provide the URL of the original material. You must submit the original script / code in the form of an appendix with your submission. You must also indicate if you did, or did not, modify the original material. If you modified the original material, you must detail the modifications made.  Care must be taken to ensure that the website and or authors copyright policy on the script / code is not violated. If in doubt please consult your instructor.
+
+
+
+### 11. Students with Disabilities
+
+Students requesting accommodations for this course due to a disability must provide a current Authorization for Accommodation (AFA) letter issued by the Office for Students with Disabilities (OSD) which is located in University Center 202 behind Center Hall. Students are required to present their AFA letters to faculty (please make arrangements to contact the instructor privately) and to the OSD Liaison in the department in advance so that accommodations may be arranged. Contact the OSD for further information [phone] 858-534-4382; [email] osd@ucsd.edu, [website] https://disabilities.ucsd.edu.
+
+
+
+### 12. Student Affairs
+
+Throughout your time at UC San Diego, you may experience a range of issues that can negatively impact your learning. These may include physical illness, housing or food insecurity, strained relationships, loss of motivation, depression, anxiety, high levels of stress, alcohol and drug problems, interpersonal or sexual violence, or grief. Such issues may lead to diminished academic performance and affect your ability to participate in day-to-day activities. If there are issues related to coursework that are a source of particular stress or challenge, you may speak with your instructor, so that they are able to support you. UC San Diego provides several resources available all enrolled students, including:
+
+* Counseling and Psychological Services: [phone] 858-534-3755, [website] https://caps.ucsd.edu
+* Student Health Service: [phone] 858-534-3300, [website] https://studenthealth.ucsd.edu
+* CARE at the Sexual Assault Resource Center: [phone] 858-534-5793, [website] https://care.ucsd.edu
+* The Hub Basic Needs Center: [phone] 858-246-2632, [website] https://basicneeds.ucsd.edu
+  
+
+
+
+### 13. Copyright
+
+All course materials (class lectures and discussions) and the intellectual content of the course itself are protected by United States Federal Copyright Law, the California Civil Code. The UC Policy 102.23 expressly prohibits students (and all other persons) from recording lectures or discussions and from distributing or selling any course materials without the prior written permission of the instructor. Students are permitted to make notes solely for their own private educational use. Exceptions to accommodate students with disabilities may be granted with appropriate documentation. See https://policy.ucop.edu/doc/2710530/PACAOS-100.
