@@ -173,10 +173,6 @@ Below is a tentative schedule.
 |            | 30-May | Memorial Day observance                               |                  |
 | P          | 01-Jun | Student presentations (part 1)                        |                  |
 | P          | 03-Jun | Student presentations (part 2)                        |                  |
-|            |        |                                                       |                  |
-|            |        |                                                       |                  |
-|            |        |                                                       |                  |
-|            |        |                                                       |                  |
 
 
 
@@ -188,11 +184,15 @@ Please note that the course material is dynamic - we improve the material over t
 
 There is no final exam. The assement is progressive and distributed over the quarter. The breakdown of the assessment is as follows.
 
-* *25% Practice problems (25 in total)*
-  * We will take the best 23 of 25.
-* *50% Homework assignments (9 in total)*
+* **25% Practice problems (25 in total)**
+  * **Week 1:** 2 practice problems (Wed, Fri).
+  * **Week 9:** 2 practice problems (Mon, Tue).
+  * **Weeks 2-8:** 3 practice problems (Mon, Wed, Fri). We will take the best 2 of 3.
+* **50% Homework assignments (9 in total)**
   * We will take the best 8 of 9.
-* *25% Final project*
+* **25% Final project**
+  * Project proposal (unmarked).
+  * Code submission + oral presentation.
 
 All assessments are to be submitted via Canvas.
 
@@ -249,7 +249,7 @@ You will submit the final project to Canvas as a zipped directory with all the p
 
 In Week 6, you will be asked to turn in a proposal for the final project. In the proposal, you’ll describe the final project and how it relates to Earth and Space Science. At that stage, you still may not have all the skills required to complete your project, but we can let you know if it is possible and substantial enough for the final project.
 
-On 01/03-Jun you will give a 3 minute presentation to the class about your project. Unless prior approval is made, attendance is required.
+On 01/03-Jun you will give a 3 minute presentation to the class about your project. Unless prior approval is made, the final project submission is considered incomplete if you do not present your project to the class during 01/03-Jun.
 
 
 
