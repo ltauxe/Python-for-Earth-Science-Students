@@ -308,7 +308,7 @@ On 01/03-Jun you will give a 3 minute presentation to the class about your proje
 
 3. Interative Jupyter notebook environments can be accessed via the following URL
 
-   [https://mybinder.org/v2/gh/hpc4geo/Python-for-Earth-Science-Students/main](https://mybinder.org/v2/gh/hpc4geo/Python-for-Earth-Science-Students/main)
+   [https://mybinder.org/v2/gh/hpc4geo/Python-for-Earth-Science-Students/main](https://mybinder.org/v2/gh/hpc4geo/Python-for-Earth-Science-Students/main?urlpath=tree)
 
    or by simply clicking the "launch binder" badge within the README file displayed when accessing the URL in item 1.
 

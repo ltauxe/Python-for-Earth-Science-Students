@@ -1,4 +1,4 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hpc4geo/Python-for-Earth-Science-Students/main)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hpc4geo/Python-for-Earth-Science-Students/main?urlpath=tree)
 
 ## Python Programming for the Earth Sciences
 
