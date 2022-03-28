@@ -69,6 +69,6 @@ Once you have launched the Jupyter notebook environment, open the file `Lecture_
 
 
 
-### SIO113 course information (Spring 2021)
+### SIO113 course information (Spring 2022)
 
 Please refer [here](SIO113_CourseInformation.md) for a complete course description.
