@@ -255,7 +255,7 @@ On 01/03-Jun you will give a 3 minute presentation to the class about your proje
 
 ### 8. Expectations
 
-* Read the Juypter notebook before coming to the lecture.
+* Read the Jupyter notebook before coming to the lecture.
 
 * Weekly homework assignments are mandatory as is the final project.
 * Homework will not be accepted late.  
