@@ -4,7 +4,7 @@
 
 *Instructor:* Dave May ([dmay@ucsd.edu](mailto:dmay@ucsd.edu?subject=))
 
-*Assistant:* Gabrielle Hobson (ghobson@ucsd.edu](mailto:ghobson@ucsd.edu?subject=))
+*Assistant:* Gabrielle Hobson ([ghobson@ucsd.edu](mailto:ghobson@ucsd.edu?subject=))
 
 
 
