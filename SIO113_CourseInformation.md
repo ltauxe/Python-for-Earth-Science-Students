@@ -186,7 +186,7 @@ There is no final exam. The assement is progressive and distributed over the qua
 
 * **25% Practice problems (25 in total)**
   * **Week 1:** 2 practice problems (Wed, Fri).
-  * **Week 9:** 2 practice problems (Mon, Tue).
+  * **Week 9:** 2 practice problems (Mon, Wed).
   * **Weeks 2-8:** 3 practice problems (Mon, Wed, Fri). We will take the best 2 of 3.
 * **50% Homework assignments (9 in total)**
   * We will take the best 8 of 9.
