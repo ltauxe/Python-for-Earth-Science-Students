@@ -164,11 +164,11 @@ Below is a tentative schedule.
 | P          |        | Practical 7                                           | HW#7 distributed |
 | L          | 16-May | L22: scikit-learn: Cluster analysis                   |                  |
 | L          | 18-May | L23: scikit-learn: Classification                     |                  |
-| L          | 20-May | L24: Gridding & contouring                            |                  |
+| L          | 20-May | L24: SVD and principal component analysis             |                  |
 | P          |        | Practical 8                                           | HW#8 distributed |
-| L          | 23-May | L25: 3D scatter plots and surfaces                    |                  |
-| L          | 25-May | L26: Topography and DEMs                              |                  |
-| L          | 27-May | L27: Landscape evolution                              |                  |
+| L          | 23-May | L25: Gridding & contouring                            |                  |
+| L          | 25-May | L26: 3D scatter plots and surfaces                    |                  |
+| L          | 27-May | L27: Topography and DEMs                              |                  |
 | P          |        | Practical 9                                           | HW#9 distributed |
 |            | 30-May | Memorial Day observance                               |                  |
 | P          | 01-Jun | Student presentations (part 1)                        |                  |
