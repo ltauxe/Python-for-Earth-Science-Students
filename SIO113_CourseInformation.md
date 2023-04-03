@@ -1,10 +1,10 @@
 # SIO 113 Computation & Data Analysis in the Geosciences
 
-*Spring 2022*
+*Spring 2023*
 
 *Instructor:* Dave May ([dmay@ucsd.edu](mailto:dmay@ucsd.edu?subject=))
 
-*Assistant:* Gabrielle Hobson ([ghobson@ucsd.edu](mailto:ghobson@ucsd.edu?subject=))
+*Instructional assistant:* Gabrielle Hobson ([ghobson@ucsd.edu](mailto:ghobson@ucsd.edu?subject=))
 
 
 
@@ -85,40 +85,40 @@ We will primarly use the service provided by MyBinder (https://mybinder.org) to 
 
 ### 5. Course Format
 
-Three lectures per week (28 lectures in total):
+Three lectures per week (27 lectures in total):
 
-* Monday 13:30 - 14:20
-* Wednesday 13:30 - 14:20
-* Friday 13:30 - 14:20 
+* Monday 10:00 - 10:50
+* Wednesday 10:00 - 10:50
+* Friday 10:00 - 10:50 
 
 One practical / discussion session per week:
 
-* Friday 14:30 - 15:20  
+* Friday 11:00 - 11:50  
 
 
 
 #### 5.1 Lectures
 
-For every lecture, there is an accompanying Jupyter notebook. You should read and familiarize yourself with the notebook before the lecture.
+For each lecture, there is an accompanying Jupyter notebook. You should read and familiarize yourself with the notebook before the lecture.
 
 Every lecture will be structured as follows:
 
 * A recap from the previous lecture, followed by a short introduction to the new material (~5-10 mins).
-* In the next 30-35 mins, we adopt a flipped classroom format. You will be re-reading the preprepared Jupyter notebook. This format is adopted to ensure you learn how to program - remember you will only learn the art of python by doing it yourself. Brendan and myself will assist you, and fill in any knowledge gaps.
+* In the next 30-35 mins, we adopt a flipped classroom format. You will be studying the preprepared Jupyter notebook and working through a lecture specific problem set. 
 * A final wrap-up in the last 5 minutes.
 
 
 
 #### 5.2 Practical / Discussion Sessions
 
-The format of the discussion sessions is left intentionally open. It is your time. The time is intended for to consolidate your understanding of programming and master your new Python skills.
+The format of the discussion sessions is left intentionally open. It is your time. The time is intended for you to consolidate your understanding of programming and master your new Python skills.
 
-The instructor and TA will be present to assist with any questions you may have regarding lecture material, practice problems or assignment questions. 
+The instructor and IA will be present to assist with any questions you may have regarding lecture material, practice problems or assignment questions. 
 
 We expect you will use this time to:
 
 * work on your practice problems, homework and or the final project;
-* ask questions you may have regarding any lecture material, practice problems, assignments or the final project.
+* ask questions you may have regarding any lecture material, lecture specific problem sets, assignments or the final project.
 
 No Python topic is off-limits - if you have a quesions - please ask. We are here to help.
 
@@ -133,48 +133,46 @@ Below is a tentative schedule.
 "L" = lecture; "P" = practical; "HW" = homework
 
 | Class type | Date   | Topic                                                 | Action           |
-| ---------- | ------ | :---------------------------------------------------- | ---------------- |
-| L          | 28-Mar | L1: Introduction, Python, Jupyter notebooks           |                  |
-| L          | 30-Mar | L2: Variables and operations                          |                  |
-| L          | 01-Apr | L3: Data structures                                   |                  |
+|------------|--------|-------------------------------------------------------|------------------|
+| L          | 03-Apr | L1: Introduction, Python, Jupyter notebooks           |                  |
+| L          | 05-Apr | L2: Variables and operations                          |                  |
+| L          | 07-Apr | L3: Data structures                                   |                  |
 | P          |        | Practical 1                                           | HW#1 distributed |
-| L          | 04-Apr | L4: Dictionaries, loops                               |                  |
-| L          | 06-Apr | L5: Functions & modules                               |                  |
-| L          | 08-Apr | L6: Numpy and matplotlib                              |                  |
+| L          | 10-Apr | L4: Dictionaries, loops                               |                  |
+| L          | 12-Apr | L5: Functions & modules                               |                  |
+| L          | 14-Apr | L6: Numpy and matplotlib                              |                  |
 | P          |        | Practical 2                                           | HW#2 distributed |
-| L          | 11-Apr | L7: Numpy arrays                                      |                  |
-| L          | 13-Apr | L8: Numpy, matplotlib, pandas                         |                  |
-| L          | 15-Apr | L9: Pandas filtering                                  |                  |
+| L          | 17-Apr | L7: Numpy arrays                                      |                  |
+| L          | 19-Apr | L8: Numpy, matplotlib, pandas                         |                  |
+| L          | 21-Apr | L9: Pandas filtering                                  |                  |
 | P          |        | Practical 3                                           | HW#3 distributed |
-| L          | 18-Apr | L10: Object oriented programming                      |                  |
-| L          | 20-Apr | L11: Lambda, list & dict comprehension, exceptions    |                  |
-| L          | 22-Apr | L12: Data wrangling with Pandas                       |                  |
+| L          | 24-Apr | L10: Object oriented programming                      |                  |
+| L          | 26-Apr | L11: Lambda, list & dict comprehension, exceptions    |                  |
+| L          | 28-Apr | L12: Data wrangling with Pandas                       |                  |
 | P          |        | Practical 4                                           | HW#4 distributed |
-| L          | 25-Apr | L13: More Pandas, subplots, bar charts and pie charts |                  |
-| L          | 27-Apr | L14: Histograms, distributions                        |                  |
-| L          | 29-Apr | L15: Statistics                                       |                  |
+| L          | 01-May | L13: More Pandas, subplots, bar charts and pie charts |                  |
+| L          | 03-May | L14: Histograms, distributions                        |                  |
+| L          | 05-May | L15: Statistics                                       |                  |
 | P          |        | Practical 5                                           | HW#5 distributed |
-| L          | 02-May | L16: Line and curve fitting, scikit-learn             |                  |
-| L          | 04-May | L17: cartopy                                          |                  |
-| L          | 06-May | L18: geoplot & geopandas                              |                  |
+| L          | 08-May | L16: Line and curve fitting, scikit-learn             |                  |
+| L          | 10-May | L17: cartopy                                          |                  |
+| L          | 12-May | L18: geoplot & geopandas                              |                  |
 | P          |        | Practical 6                                           | HW#6 distributed |
-| L          | 09-May | L19: Rose diagrams, projections                       |                  |
-| L          | 11-May | L20: Matrix math / linear algebra                     |                  |
-| L          | 13-May | L21: Plotting great and small circles                 |                  |
+| L          | 15-May | L19: Rose diagrams, projections                       |                  |
+| L          | 17-May | L20: Matrix math / linear algebra                     |                  |
+| L          | 19-May | L21: Plotting great and small circles                 |                  |
 | P          |        | Practical 7                                           | HW#7 distributed |
-| L          | 16-May | L22: scikit-learn: Cluster analysis                   |                  |
-| L          | 18-May | L23: scikit-learn: Classification                     |                  |
-| L          | 20-May | L24: SVD and principal component analysis             |                  |
+| L          | 22-May | L22: scikit-learn: Cluster analysis                   |                  |
+| L          | 24-May | L23: scikit-learn: Classification                     |                  |
+| L          | 26-May | L24: SVD and principal component analysis             |                  |
 | P          |        | Practical 8                                           | HW#8 distributed |
-| L          | 23-May | L25: Gridding & contouring                            |                  |
-| L          | 25-May | L26: 3D scatter plots and surfaces                    |                  |
-| L          | 27-May | L27: Topography and DEMs                              |                  |
+|            | 29-May | Memorial Day observance                               |                  |
+| L          | 31-May | L25: Gridding & contouring                            |                  |
+| L          | 02-Jun | L26: 3D scatter plots and surfaces                    |                  |
 | P          |        | Practical 9                                           | HW#9 distributed |
-|            | 30-May | Memorial Day observance                               |                  |
-| P          | 01-Jun | Student presentations (part 1)                        |                  |
-| P          | 03-Jun | Student presentations (part 2)                        |                  |
-
-
+| L          | 05-Jun | L27: Topography and DEMs                              |                  |
+| P          | 07-Jun | Student presentations (part 1)                        |                  |
+| P          | 09-Jun | Student presentations (part 2)                        |                  |
 
 Please note that the course material is dynamic - we improve the material over the duration of the quarter (and fix bugs). Whilst all notebooks are already available, please download them at the beginning of each week. Unless otherwise indicated, the provided notebooks for the week will not be altered after Sunday morning.
 
@@ -186,7 +184,7 @@ There is no final exam. The assement is progressive and distributed over the qua
 
 * **25% Practice problems (25 in total)**
   * **Week 1:** 2 practice problems (Wed, Fri).
-  * **Week 9:** 2 practice problems (Mon, Wed).
+  * **Week 9:** 2 practice problems (Wed, Fri).
   * **Weeks 2-8:** 3 practice problems (Mon, Wed, Fri). We will take the best 2 of 3.
 * **50% Homework assignments (9 in total)**
   * We will take the best 8 of 9.
@@ -198,7 +196,7 @@ All assessments are to be submitted via Canvas.
 
 Precise instructions are provided in each practice problem and homework regarding how the submission should be organized. Please pay close attention to the naming convention requested in each assessment. Failure to adhere to the guidelines provided will result in penalties.
 
-Remember, the rule "You should only believe code you can run": we will be applying this rule when grading your work. If we cannot run the Python code you have submitted you will not receive full marks. You must submitted all data files, inputs required to reproduce your results. We will not chase if your submission is incomplete - this is your responsibility. Please test your submissions before uploading them to Canvas.
+Remember, the rule "You should only believe code you can run": we will be applying this rule when grading your work. If we cannot run the Python code you have submitted you will not receive full marks. You must submit all data files, inputs required to reproduce your results. We will not chase if your submission is incomplete - this is your responsibility. Please verify that your Python submission executes without errors before uploading it into Canvas.
 
 
 
@@ -206,7 +204,7 @@ Remember, the rule "You should only believe code you can run": we will be applyi
 
 For lectures 2 through 26, there is an accompanying set of exercise to be completed. The intention is that you complete these during each lecture. 
 
-- Practice problems from Mon, Wed, Fri are due by midnight on Sunday (same week).
+- Practice problems from each week (Mon, Wed, Fri) are due by midnight on Sunday of same week.
 
 - Each practice problem needs to be submitted seperately into Canvas.
 
@@ -216,7 +214,7 @@ For lectures 2 through 26, there is an accompanying set of exercise to be comple
 
 A homework assignment will be distributed every week at the beginning of each practical session (Friday). 
 
-* Each homework assignment is due by midnight on Sunday (following week).
+* Each homework assignment is due by midnight on Sunday the following week.
 
   
 
@@ -224,9 +222,9 @@ A homework assignment will be distributed every week at the beginning of each pr
 
 The final project has three important deadlines.
 
-* Project proposal due 06-May (week 6).
-* Project presentations 01/03-Jun.
-* Final submission 08-Jun.
+* Project proposal due 12-May (week 6).
+* Project presentations 07, 09-Jun (week 10).
+* Final submission 14-Jun.
 
 The final project is your opportunity to be creative and showcase the Python skills you have learned during this course by applying them to an Earth science application. There is a great deal of flexibility on the exact nature of the final project but it must be related to Earth and Space Science. 
 
@@ -247,20 +245,19 @@ Whatever the specifics of your project, at the bare minimum your project must:
 
 You will submit the final project to Canvas as a zipped directory with all the parts required to run it (the data files, figures, modules, etc.).
 
-In Week 6, you will be asked to turn in a proposal for the final project. In the proposal, you’ll describe the final project and how it relates to Earth and Space Science. At that stage, you still may not have all the skills required to complete your project, but we can let you know if it is possible and substantial enough for the final project.
+In week 6, you will be asked to turn in a proposal for the final project. In the proposal, you’ll describe the final project and how it relates to Earth and Space Science. At that stage, you still may not have all the skills required to complete your project, but we can let you know if it is possible and substantial enough for the final project.
 
-On 01/03-Jun you will give a 3 minute presentation to the class about your project. Unless prior approval is made, the final project submission is considered incomplete if you do not present your project to the class during 01/03-Jun.
+In the last week of instruction (week 10) you will give a 3 minute presentation to the class about your project. Unless prior approval is made, the final project submission is considered incomplete if you do not present your project to the class in week 10.
 
 
 
 ### 8. Expectations
 
 * Read the Jupyter notebook before coming to the lecture.
-
 * Weekly homework assignments are mandatory as is the final project.
-* Homework will not be accepted late.  
+* Late submissions will not be accepted unless prior approval has been sought.
 * Code submissions must be complete - all required data files must be provided.
-* You may consult any online resources, your fellow students & your instructor / TA to help you solve your problems. When utilizing online resources or when working in a group, please refer to Section 10 Academic Integrity  (below) to ensure you give the appropriate acknowledgement and attribution to the work which you are not the sole author of.
+* You may consult any online resources, your fellow students & your instructor / IA to help you solve your problems. When utilizing online resources or when working in a group, please refer to Section 10 Academic Integrity  (below) to ensure you give the appropriate acknowledgement and attribution to the work which you are not the sole author of.
 
 
 
@@ -302,7 +299,7 @@ On 01/03-Jun you will give a 3 minute presentation to the class about your proje
 
    https://github.com/hpc4geo/Python-for-Earth-Science-Students/archive/refs/heads/main.zip
 
-   Remember content may be altered / updated / improved over the quarter, so if you are downloading the material, do so regularly (weekly).
+   Remember the course content may be altered / updated / improved over the quarter, so if you are downloading the material, do so regularly (weekly).
 
    
 
@@ -327,8 +324,9 @@ Guidelines for giving proper acknowledgement or attribution to others work is pr
 
 **Online resources**
 
-* If you used a tutorial (i.e. followed it extensively) you must provide the URL (web address) of the original material and indicate that you used an online resource as part of your submitted work. You must indicate which parts of the tutorial you used.
-* If you used a script, or piece of computer code (e.g. taken from the tutorial, or a site such as StackOverflow) you must provide the URL of the original material. You must submit the original script / code in the form of an appendix with your submission. You must also indicate if you did, or did not, modify the original material. If you modified the original material, you must detail the modifications made.  Care must be taken to ensure that the website and or authors copyright policy on the script / code is not violated. If in doubt please consult your instructor.
+* If you used a tutorial in any capacity, you must provide the URL (web address) of the original material and indicate that you used an online resource as part of your submitted work. You must indicate which parts of the tutorial you used.
+* If you used a script, or piece of computer code (e.g. taken from a tutorial, or a site such as StackOverflow) you must provide the URL of the original material. You must submit the original script / code in the form of an appendix with your submission. You must also indicate if you did, or did not, modify the original material. If you modified the original material, you must detail the modifications made.  Care must be taken to ensure that the website and or authors copyright policy on the script / code is not violated. If in doubt please consult your instructor.
+* Complete answers to any practice problem or homework assigment which are generated by ChatGPT are not considered "original work that is yours alone". You may use ChatGPT to debug you own code, and as a help resource (like you would a tutorial). You may also use ChatGPT to verify the correctness of your own code. If you do use ChatGPT in any capacity for a submission, please indicate this in your submission and provide the exact query you used.
 
 
 
