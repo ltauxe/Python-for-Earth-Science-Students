@@ -1,21 +1,11 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hpc4geo/Python-for-Earth-Science-Students/main?urlpath=tree)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hpc4geo/Python-for-Earth-Science-Students/main)
 
 ## Python Programming for the Earth Sciences
 
-Authors: Lisa Tauxe (ltauxe@ucsd.edu), Hanna Asefaw (hasefaw@ucs.dedu), Brendan Cych (bcych@ucsd.edu) & Dave May (dmay@ucsd.edu).
+Authors: Lisa Tauxe (ltauxe@ucsd.edu), Hanna Asefaw Brendan Cych, Gabrielle Hobson, & Dave May (dmay@ucsd.edu).
 
-### Licensing: 
 
-Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
-
-This work is licensed under a
-[Creative Commons Attribution 4.0 International License][cc-by].
-
-[![CC BY 4.0][cc-by-image]][cc-by]
-
-[cc-by]: http://creativecommons.org/licenses/by/4.0/
-[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
-[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
+###  [SIO 113 Spring '23 syllabus](SIO113_CourseInformation.md)
 
 
 
@@ -23,6 +13,11 @@ This work is licensed under a
 
 Computers are essential to all modern Earth Science research.  We use them for compiling and analyzing data, preparing illustrations like maps or data plots, writing  manuscripts, and so on.  In this class, you will learn to write computer programs with special applications useful to Earth Scientists.  We will learn Python, an object-oriented programming language, and use Jupyter notebooks to write our Python programs.
 
+#### Getting started
+
+The simplest way to begin is by clicking the "launch Binder" button at the top of this ReadMe file. This "one-click" option will launch your personal Jupyter environment for this course.
+
+Once you have launched the Jupyter notebook environment, open the file `Lecture_01.ipynb`.
 
 
 ### Python
@@ -61,14 +56,16 @@ If you wish to explore the lectures interactively, you can access them via Binde
 
 
 
-### Getting started
+### License
 
-The simplest way to begin is by clicking the "launch Binder" button at the top of this ReadMe file. This "one-click" option will launch your personal Jupyter environment for this course.
+Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
-Once you have launched the Jupyter notebook environment, open the file `Lecture_01.ipynb`.
+This work is licensed under a
+[Creative Commons Attribution 4.0 International License][cc-by].
 
+[![CC BY 4.0][cc-by-image]][cc-by]
 
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
 
-### SIO 113 course information
-
-Please refer [here](SIO113_CourseInformation.md) for the complete syllabus.
