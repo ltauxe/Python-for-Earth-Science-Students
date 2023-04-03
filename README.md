@@ -2,7 +2,7 @@
 
 ## Python Programming for the Earth Sciences
 
-Authors: Lisa Tauxe (ltauxe@ucsd.edu), Hanna Asefaw Brendan Cych, Gabrielle Hobson, & Dave May (dmay@ucsd.edu).
+Contributors: Lisa Tauxe (ltauxe@ucsd.edu), Dave May (dmay@ucsd.edu), Hanna Asefaw, Brendan Cych & Gabrielle Hobson.
 
 
 ###  [SIO 113 Spring '23 syllabus](SIO113_CourseInformation.md)
