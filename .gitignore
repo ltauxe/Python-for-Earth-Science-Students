@@ -1,3 +1,7 @@
 Datasets/SurfaceTemp/tmp.csv
 mknb
 update_git
+.ipynb_checkpoints/*
+Practice_Problems/.ipynb_checkpoints/*
+Assignments/.ipynb_checkpoints/*
+Supplementary_Lectures/.ipynb_checkpoints/*

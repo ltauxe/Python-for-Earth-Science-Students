@@ -1,0 +1,35 @@
+Lecture,Topic,Application,Date,Assignment,
+1,"Intro to python, Jupyter notebooks",,31-Mar,
+2,Variables and operations,,31-Mar,
+3,"Lists, tuples and sets",,02-Apr,#1
+4,"Dictionaries, loops and conditions (if, while and for)",,07-Apr,
+5,Functions and modules,,07-Apr,
+6,NumPy and matplotlib ,seismic record,09-Apr,#2
+7,NumPy arrays,,14-Apr,
+8,"Pandas, file I/O ",P-S wave arrival times,14-Apr,
+9,Data wrangling with Pandas,seismic travel time plots,16-Apr,#3
+10,Object oriented programming,objects and classes,21-Apr,
+11,"Lambda, list & dict comprehension, exceptions",,21-Apr,
+12,Pandas filtering,volcanic eruptions,23-Apr,#4
+13,"More Pandas, subplots, bar charts and pie charts",elemental abundances,28-Apr,
+14,Histograms and distributions,hypsometric curve,28-Apr,
+15,Statistics,Univariate data,30-Apr,#5
+16,"Line and curve fitting, scjikit-learn"  ,Bivariate data & Hubble plot,05-May,
+17,"Maps, spatial data", earthquake locations/ depths,05-May,
+18,Geopandas,,07-May,Project proposal due & #6
+19,Rose diagrams and equal area projections,glacial striations,12-May,
+20,Matrix math - dot and cross products,earthquake location,12-May,
+21,Plotting great and small circles,bathymetry?,14-May,#7
+22,"Machine Learning- Clustering",Orocopio Fold,19-May,
+23,"Machine Learning- Classification, PCA",Landsat ,19-May,
+24,Gridding and contouring ,IGRF,21-May,#8
+25,3D scatter plots and surface plots,benioff zone,26-May,
+26,Time series  - periodograms,temporal data,26-May,
+27,Animations,Indian plate motion,28-May,#9
+28,Beyond this course,,02-Jun
+-,Project work,,02-Jun
+-,Project work,,04-Jun
+-,-- INSTRUCTION ENDS --,,
+-,Student presentations - part 1,,09-Jun
+-,Student presentations - part 2,,09-Jun
+-,Final project due,,11-Jun
